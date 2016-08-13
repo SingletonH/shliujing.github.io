@@ -1,0 +1,1245 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+  
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/uploads/harlem-shake-style.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo,演示,Next,SVN,Svnbersion,自动构建,Apache,Nginx,CentOS,Tomcat,Linux,Jenkins," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jing's Blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="&amp;#x7D27;&amp;#x63A5;&amp;#x4E0A;&amp;#x7BC7;&amp;#x624B;&amp;#x52A8;&amp;#x5B9E;&amp;#x73B0;&amp;#x7C7B;&amp;#x4F3C;&amp;#x6613;&amp;#x4F01;&amp;#x79C0;PPT&amp;#x90A3;&amp;#x6837;&amp;#x7684;HTML5&amp;#x7F51;&amp;#x7AD9;&amp;#x3002;&amp;#x535A;&amp;#x6587;&amp;#x4E2D;&amp;#xFF0C;&amp;#x4E3A;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="为博客添加演示地址 - 通过SVN自动化构建代码（二）">
+<meta property="og:url" content="http://www.iamlj.com/2015/09/add-demo-for-blog-svn-way/index.html">
+<meta property="og:site_name" content="Jing's Blog">
+<meta property="og:description" content="&amp;#x7D27;&amp;#x63A5;&amp;#x4E0A;&amp;#x7BC7;&amp;#x624B;&amp;#x52A8;&amp;#x5B9E;&amp;#x73B0;&amp;#x7C7B;&amp;#x4F3C;&amp;#x6613;&amp;#x4F01;&amp;#x79C0;PPT&amp;#x90A3;&amp;#x6837;&amp;#x7684;HTML5&amp;#x7F51;&amp;#x7AD9;&amp;#x3002;&amp;#x535A;&amp;#x6587;&amp;#x4E2D;&amp;#xFF0C;&amp;#x4E3A;">
+<meta property="og:image" content="http://www.iamlj.com/2015/09/add-demo-for-blog-svn-way/iamlj_201607150928.png">
+<meta property="og:image" content="http://www.iamlj.com/2015/09/add-demo-for-blog-svn-way/iamlj_201607150745.png">
+<meta property="og:image" content="http://www.iamlj.com/2015/09/add-demo-for-blog-svn-way/iamlj_201607150849.png">
+<meta property="og:image" content="http://7xncbk.com1.z0.glb.clouddn.com/iamlj_201607151054.png">
+<meta property="og:updated_time" content="2016-07-20T06:15:46.467Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="为博客添加演示地址 - 通过SVN自动化构建代码（二）">
+<meta name="twitter:description" content="&amp;#x7D27;&amp;#x63A5;&amp;#x4E0A;&amp;#x7BC7;&amp;#x624B;&amp;#x52A8;&amp;#x5B9E;&amp;#x73B0;&amp;#x7C7B;&amp;#x4F3C;&amp;#x6613;&amp;#x4F01;&amp;#x79C0;PPT&amp;#x90A3;&amp;#x6837;&amp;#x7684;HTML5&amp;#x7F51;&amp;#x7AD9;&amp;#x3002;&amp;#x535A;&amp;#x6587;&amp;#x4E2D;&amp;#xFF0C;&amp;#x4E3A;">
+<meta name="twitter:image" content="http://www.iamlj.com/2015/09/add-demo-for-blog-svn-way/iamlj_201607150928.png">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"right","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 13788476,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://www.iamlj.com/2015/09/add-demo-for-blog-svn-way/"/>
+
+  <title> 为博客添加演示地址 - 通过SVN自动化构建代码（二） | Jing's Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//7xncbk.com1.z0.glb.clouddn.com/analytics.js','ga');
+  ga('create', 'UA-68500175-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?6d42a4beda98d0ebc19c84dc725e1424";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Jing's Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-guestbook">
+          <a href="/guestbook" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-comment"></i> <br />
+            
+            留言
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                为博客添加演示地址 - 通过SVN自动化构建代码（二）
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-09-05T13:46:47+08:00" content="2015-09-05">
+              2015-09-05
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Tech/" itemprop="url" rel="index">
+                    <span itemprop="name">Tech</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2015/09/add-demo-for-blog-svn-way/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/add-demo-for-blog-svn-way/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2015/09/add-demo-for-blog-svn-way/" class="leancloud_visitors" data-flag-title="为博客添加演示地址 - 通过SVN自动化构建代码（二）">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">热度 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>&#x7D27;&#x63A5;&#x4E0A;&#x7BC7;<a href="/2015/09/imitate-eqixiu-html5/" title="&#x624B;&#x52A8;&#x5B9E;&#x73B0;&#x7C7B;&#x4F3C;&#x6613;&#x4F01;&#x79C0;PPT&#x90A3;&#x6837;&#x7684;HTML5&#x7F51;&#x7AD9;">&#x624B;&#x52A8;&#x5B9E;&#x73B0;&#x7C7B;&#x4F3C;&#x6613;&#x4F01;&#x79C0;PPT&#x90A3;&#x6837;&#x7684;HTML5&#x7F51;&#x7AD9;</a>&#x3002;&#x535A;&#x6587;&#x4E2D;&#xFF0C;&#x4E3A;&#x4E86;&#x589E;&#x52A0;&#x6F14;&#x793A;&#x5730;&#x5740;&#x3002;&#x6211;&#x8BD5;&#x4E86;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#xFF0C;&#x4E00;&#x79CD;&#x662F;<a href="/2015/09/add-demo-for-blog-together-with-blog/" title="&#x4E3A;&#x535A;&#x5BA2;&#x6DFB;&#x52A0;&#x6F14;&#x793A;&#x5730;&#x5740; - &#x5C06;&#x6F14;&#x793A;&#x4E0E;&#x535A;&#x5BA2;&#x4EE3;&#x7801;&#x4E00;&#x8D77;&#x53D1;&#x5E03;&#xFF08;&#x4E00;&#xFF09;">&#x4E3A;&#x535A;&#x5BA2;&#x6DFB;&#x52A0;&#x6F14;&#x793A;&#x5730;&#x5740; - &#x5C06;&#x6F14;&#x793A;&#x4E0E;&#x535A;&#x5BA2;&#x4EE3;&#x7801;&#x4E00;&#x8D77;&#x53D1;&#x5E03;&#xFF08;&#x4E00;&#xFF09;</a>&#xFF1B;&#x4E00;&#x79CD;&#x662F;<a href="/2015/09/add-demo-for-blog-svn-way/" title="&#x4E3A;&#x535A;&#x5BA2;&#x6DFB;&#x52A0;&#x6F14;&#x793A;&#x5730;&#x5740; - &#x901A;&#x8FC7;SVN&#x81EA;&#x52A8;&#x5316;&#x6784;&#x5EFA;&#x4EE3;&#x7801;&#xFF08;&#x4E8C;&#xFF09;">&#x4E3A;&#x535A;&#x5BA2;&#x6DFB;&#x52A0;&#x6F14;&#x793A;&#x5730;&#x5740; - &#x901A;&#x8FC7;SVN&#x81EA;&#x52A8;&#x5316;&#x6784;&#x5EFA;&#x4EE3;&#x7801;&#xFF08;&#x4E8C;&#xFF09;</a>&#x3002;</p>
+<p>&#x901A;&#x8FC7;SVN&#x81EA;&#x52A8;&#x5316;&#x6784;&#x5EFA;&#x4EE3;&#x7801;&#x7684;&#x597D;&#x5904;&#x5728;&#x4E8E;&#x65B9;&#x4FBF;&#x7BA1;&#x7406;&#xFF0C;&#x574F;&#x5904;&#x4E5F;&#x5F88;&#x660E;&#x663E;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&#x6BD4;&#x8F83;&#x7E41;&#x7410;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x4E9B;&#x4E8B;&#x60C5;&#x505A;&#x597D;&#x540E;&#xFF0C;&#x5BF9;&#x4EE5;&#x540E;&#x6765;&#x8BF4;&#x662F;&#x4E00;&#x52B3;&#x6C38;&#x9038;&#x7684;&#x3002;&#x51C6;&#x5907;&#x5DE5;&#x4F5C;&#x6709;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li>&#x51C6;&#x5907;&#x597D;&#x4E00;&#x4E2A;&#x670D;&#x52A1;&#x5668;</li>
+<li>&#x88C5;&#x597D;<code>Svnbersion</code>&#x548C;&#x670D;&#x52A1;&#x5668;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF0C;&#x6BD4;&#x5982;<code>Apache</code>&#x670D;&#x52A1;&#x5668;</li>
+<li>&#x521B;&#x5EFA;SVN&#x4ED3;&#x5E93;&#x94A9;&#x5B50;&#xFF0C;&#x914D;&#x7F6E;<code>Apache</code>&#x7AD9;&#x70B9;&#xFF0C;&#x81EA;&#x52A8;&#x66F4;&#x65B0;&#x4EE3;&#x7801;</li>
+</ol>
+<a id="more"></a> 
+<h2 id="&#x8BF4;&#x660E;"><a href="#&#x8BF4;&#x660E;" class="headerlink" title="&#x8BF4;&#x660E;"></a>&#x8BF4;&#x660E;</h2><p>&#x7B80;&#x5355;&#x9648;&#x8FF0;&#x4E0A;&#x8FF0;&#x5DE5;&#x4F5C;&#x3002;</p>
+<ol>
+<li>&#x63A8;&#x8350;&#x4F7F;&#x7528;&#x4E91;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x65B9;&#x4FBF;&#x7BA1;&#x7406;&#xFF0C;&#x6211;&#x8FD9;&#x91CC;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x963F;&#x91CC;&#x4E91;&#x7684;&#x670D;&#x52A1;&#x5668;<code>Centos6.5</code>&#x3002;</li>
+<li>&#x8FD0;&#x884C;&#x73AF;&#x5883;&#x53EF;&#x4EE5;&#x5230;&#x963F;&#x91CC;&#x4E91;&#x5E02;&#x573A;&#x4E0B;&#x8F7D;&#x4E00;&#x952E;&#x5B89;&#x88C5;&#x5305;&#xFF0C;&#x6211;&#x4F7F;&#x7528;&#x7684;&#x662F;<code>LAMP</code>&#x4E00;&#x952E;&#x5B89;&#x88C5;&#x5305;&#xFF0C;&#x7136;&#x540E;&#x7528;yum&#x88C5;&#x7684;<code>Svnbersion</code>&#x3002;&#x6709;&#x65F6;&#x95F4;&#x6211;&#x4F1A;&#x5C06;&#x5B89;&#x88C5;&#x7684;&#x8FC7;&#x7A0B;&#x548C;&#x4E00;&#x4E9B;&#x6CE8;&#x610F;&#x8981;&#x70B9;&#x5199;&#x4E00;&#x7BC7;&#x535A;&#x6587;&#x58F0;&#x660E;&#x3002;</li>
+<li>&#x5173;&#x4E8E;&#x524D;2&#x6B65;&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x5230;&#x7F51;&#x4E0A;&#x53BB;&#x627E;&#x6559;&#x7A0B;&#xFF0C;&#x975E;&#x5E38;&#x7B80;&#x5355;&#x3002;&#x4ECA;&#x5929;&#x6211;&#x91CD;&#x70B9;&#x8BB2;&#x7B2C;3&#x6B65;&#x3002;</li>
+</ol>
+<h3 id="&#x76EE;&#x5F55;&#x58F0;&#x660E;"><a href="#&#x76EE;&#x5F55;&#x58F0;&#x660E;" class="headerlink" title="&#x76EE;&#x5F55;&#x58F0;&#x660E;"></a>&#x76EE;&#x5F55;&#x58F0;&#x660E;</h3><p>&#x5728;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x5148;&#x9884;&#x8BBE;&#x597D;&#x76F8;&#x5E94;&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x5176;&#x4E2D;&#xFF1A;<br><figure class="highlight dts"><table><tr><td class="code"><pre><span class="line">SVN&#x4ED3;&#x5E93;&#x5730;&#x5740;&#xFF1A;<span class="meta-keyword">/alidata/</span>lj<span class="meta-keyword">/svn/</span>repos/pub</span><br><span class="line">&#x4EE3;&#x7801;&#x8FD0;&#x884C;&#x76EE;&#x5F55;&#xFF1A;<span class="meta-keyword">/alidata/</span>www/pub</span><br><span class="line">Apache&#x7684;&#x914D;&#x7F6E;&#x76EE;&#x5F55;&#xFF1A;<span class="meta-keyword">/alidata/</span>server<span class="meta-keyword">/httpd/</span>conf/vhosts</span><br></pre></td></tr></table></figure></p>
+<h2 id="&#x521B;&#x5EFA;SVN&#x4ED3;&#x5E93;&#x4E0E;&#x94A9;&#x5B50;"><a href="#&#x521B;&#x5EFA;SVN&#x4ED3;&#x5E93;&#x4E0E;&#x94A9;&#x5B50;" class="headerlink" title="&#x521B;&#x5EFA;SVN&#x4ED3;&#x5E93;&#x4E0E;&#x94A9;&#x5B50;"></a>&#x521B;&#x5EFA;SVN&#x4ED3;&#x5E93;&#x4E0E;&#x94A9;&#x5B50;</h2><h3 id="&#x521B;&#x5EFA;svn&#x4ED3;&#x5E93;&#x4ED3;&#x5E93;"><a href="#&#x521B;&#x5EFA;svn&#x4ED3;&#x5E93;&#x4ED3;&#x5E93;" class="headerlink" title="&#x521B;&#x5EFA;svn&#x4ED3;&#x5E93;&#x4ED3;&#x5E93;"></a>&#x521B;&#x5EFA;svn&#x4ED3;&#x5E93;&#x4ED3;&#x5E93;</h3><figure class="highlight dts"><table><tr><td class="code"><pre><span class="line">mkdir -p <span class="meta-keyword">/alidata/</span>lj<span class="meta-keyword">/svn/</span>repos/pub <span class="meta"># &#x521B;&#x5EFA;&#x76EE;&#x5F55;</span></span><br><span class="line">svnadmin create <span class="meta-keyword">/alidata/</span>lj<span class="meta-keyword">/svn/</span>repos/pub <span class="meta"># &#x521B;&#x5EFA;&#x4ED3;&#x5E93;</span></span><br></pre></td></tr></table></figure>
+<h3 id="&#x914D;&#x7F6E;SVN&#x8D26;&#x53F7;"><a href="#&#x914D;&#x7F6E;SVN&#x8D26;&#x53F7;" class="headerlink" title="&#x914D;&#x7F6E;SVN&#x8D26;&#x53F7;"></a>&#x914D;&#x7F6E;SVN&#x8D26;&#x53F7;</h3><p>&#x5728;<code>/alidata/lj/svn/repos/pub/conf</code>&#x4E2D;&#x9700;&#x8981;&#x914D;&#x7F6E;2&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5728;&#x535A;&#x6587;&#x6700;&#x540E;&#x4E0B;&#x8F7D;<strong>&#x6211;&#x5206;&#x4EAB;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</strong>&#xFF0C;<strong>&#x628A;&#x76F8;&#x5E94;&#x7528;&#x6237;&#x7684;&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x6539;&#x6210;&#x81EA;&#x5DF1;&#x9700;&#x8981;&#x7684;&#x5C31;&#x884C;</strong>&#xFF0C;&#x64CD;&#x4F5C;&#x5206;&#x522B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>authz&#xFF0C;&#x6DFB;&#x52A0;svn&#x8D26;&#x53F7;</p>
+<figure class="highlight vala"><table><tr><td class="code"><pre><span class="line">[groups]</span><br><span class="line"><span class="meta"># harry_and_sally = harry,sally</span></span><br><span class="line"><span class="meta"># harry_sally_and_joe = harry,sally,&amp;joe</span></span><br><span class="line">admin = admin,lj</span><br><span class="line"><span class="meta"># [/foo/bar]</span></span><br><span class="line"><span class="meta"># harry = rw</span></span><br><span class="line"><span class="meta"># &amp;joe = r</span></span><br><span class="line"><span class="meta"># * =</span></span><br></pre></td></tr></table></figure>
+<p>passwd&#xFF0C;&#x8BBE;&#x7F6E;&#x5BC6;&#x7801;</p>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="section">[users]</span></span><br><span class="line"><span class="comment"># harry = harryssecret</span></span><br><span class="line"><span class="comment"># sally = sallyssecret</span></span><br><span class="line"><span class="attr">admin</span> = <span class="number">888888</span></span><br><span class="line"><span class="attr">lj</span> = <span class="number">888888</span></span><br></pre></td></tr></table></figure>
+<p>svnserve.conf&#xFF0C;&#x4E3A;&#x8054;&#x52A8;authz&#x548C;passwd&#x6587;&#x4EF6;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x505A;&#x4FEE;&#x6539;&#x3002;</p>
+<h3 id="&#x8BBE;&#x7F6E;&#x94A9;&#x5B50;&#x4E0E;&#x542F;&#x52A8;"><a href="#&#x8BBE;&#x7F6E;&#x94A9;&#x5B50;&#x4E0E;&#x542F;&#x52A8;" class="headerlink" title="&#x8BBE;&#x7F6E;&#x94A9;&#x5B50;&#x4E0E;&#x542F;&#x52A8;"></a>&#x8BBE;&#x7F6E;&#x94A9;&#x5B50;&#x4E0E;&#x542F;&#x52A8;</h3><p>&#x5728;<code>/alidata/lj/svn/repos/pub/hooks/post-commit</code>&#x6700;&#x540E;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF0C;&#x5B8C;&#x6210;&#x6BCF;&#x6B21;&#x63D0;&#x4EA4;&#x65F6;&#xFF0C;SVN&#x81EA;&#x52A8;&#x66F4;&#x65B0;&#x8FD0;&#x884C;&#x76EE;&#x5F55;&#x7684;&#x4EE3;&#x7801;</p>
+<figure class="highlight dts"><table><tr><td class="code"><pre><span class="line">export LANG=zh_CN.UTF<span class="number">-8</span></span><br><span class="line"><span class="meta-keyword">/usr/</span>bin/svn update --username admin --password WC8lJM  <span class="meta-keyword">/alidata/</span>lj<span class="meta-keyword">/svn/</span>repos<span class="meta-keyword">/pub/</span></span><br><span class="line">date &gt;&gt; <span class="meta-keyword">/var/</span>log/gen_svn_auto_commit_update.log</span><br><span class="line"></span><br><span class="line">chmod a+x post-commit <span class="meta"># &#x8D4B;&#x4E88;&#x6743;&#x9650;</span></span><br><span class="line"></span><br><span class="line">svnserve -d -r <span class="meta-keyword">/alidata/</span>lj<span class="meta-keyword">/svn/</span>repos<span class="meta-keyword">/pub/</span> --listen-port=<span class="number">58888</span> <span class="meta"># &#x542F;&#x52A8;svn&#x4ED3;&#x5E93;</span></span><br></pre></td></tr></table></figure>
+<h3 id="&#x8BBE;&#x7F6E;&#x5F00;&#x673A;&#x542F;&#x52A8;&#x4ED3;&#x5E93;"><a href="#&#x8BBE;&#x7F6E;&#x5F00;&#x673A;&#x542F;&#x52A8;&#x4ED3;&#x5E93;" class="headerlink" title="&#x8BBE;&#x7F6E;&#x5F00;&#x673A;&#x542F;&#x52A8;&#x4ED3;&#x5E93;"></a>&#x8BBE;&#x7F6E;&#x5F00;&#x673A;&#x542F;&#x52A8;&#x4ED3;&#x5E93;</h3><figure class="highlight dts"><table><tr><td class="code"><pre><span class="line">vi <span class="meta-keyword">/etc/</span>rc.d/rc.local</span><br><span class="line"><span class="meta-keyword">/usr/</span>bin/svnserve -d -r <span class="meta-keyword">/alidata/</span>lj<span class="meta-keyword">/svn/</span>repos<span class="meta-keyword">/pub/</span> --listen-port=<span class="number">58888</span></span><br></pre></td></tr></table></figure>
+<h2 id="&#x914D;&#x7F6E;Apache&#x7AD9;&#x70B9;"><a href="#&#x914D;&#x7F6E;Apache&#x7AD9;&#x70B9;" class="headerlink" title="&#x914D;&#x7F6E;Apache&#x7AD9;&#x70B9;"></a>&#x914D;&#x7F6E;Apache&#x7AD9;&#x70B9;</h2><h3 id="&#x521B;&#x5EFA;&#x9879;&#x76EE;&#x76EE;&#x5F55;"><a href="#&#x521B;&#x5EFA;&#x9879;&#x76EE;&#x76EE;&#x5F55;" class="headerlink" title="&#x521B;&#x5EFA;&#x9879;&#x76EE;&#x76EE;&#x5F55;"></a>&#x521B;&#x5EFA;&#x9879;&#x76EE;&#x76EE;&#x5F55;</h3><p><code>mkdir -p /alidata/www/pub</code></p>
+<h3 id="&#x914D;&#x7F6E;&#x865A;&#x62DF;&#x4E3B;&#x673A;"><a href="#&#x914D;&#x7F6E;&#x865A;&#x62DF;&#x4E3B;&#x673A;" class="headerlink" title="&#x914D;&#x7F6E;&#x865A;&#x62DF;&#x4E3B;&#x673A;"></a>&#x914D;&#x7F6E;&#x865A;&#x62DF;&#x4E3B;&#x673A;</h3><p>&#x8FD9;&#x91CC;&#x6211;&#x914D;&#x7F6E;&#x7684;&#x662F;<strong>Apache&#x865A;&#x62DF;&#x4E3B;&#x673A;&#x7684;&#x914D;&#x7F6E;</strong>&#xFF0C;&#x9644;&#x5E26;&#x4E00;&#x4E2A;<code>Nginx</code>&#x7684;&#x914D;&#x7F6E;&#xFF0C;&#x65B9;&#x4FBF;&#x4F7F;&#x7528;<code>Nginx</code>&#x505A;&#x670D;&#x52A1;&#x5668;&#x7684;&#x540C;&#x5B66;&#x505A;&#x914D;&#x7F6E;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x8FBE;&#x5230;&#x8FD9;&#x6837;&#x7684;&#x6548;&#x679C;&#xFF0C;&#x5F53;&#x7528;&#x6237;&#x8BBF;&#x95EE;<code>pub.iamlj.com</code>&#x65F6;&#xFF0C;&#x8FD0;&#x884C;<code>/alidata/www/pub</code>&#x7684;&#x4EE3;&#x7801;&#x3002;&#x5728;<code>/alidata/server/httpd/conf/vhosts</code>&#x4E2D;&#xFF0C;&#x65B0;&#x5EFA;<code>pub.conf</code>&#x3002;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="section">&lt;DirectoryMatch &quot;/alidata/www/pub/(attachment|html|data)&quot;&gt;</span></span><br><span class="line"><span class="section">&lt;Files ~ &quot;.php&quot;&gt;</span></span><br><span class="line"><span class="attribute"><span class="nomarkup">Order</span></span> allow,deny</span><br><span class="line"><span class="attribute"><span class="nomarkup">Deny</span></span> from <span class="literal">all</span></span><br><span class="line"><span class="section">&lt;/Files&gt;</span></span><br><span class="line"><span class="section">&lt;/DirectoryMatch&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="section">&lt;VirtualHost *:80&gt;</span></span><br><span class="line">    <span class="attribute"><span class="nomarkup">DocumentRoot</span></span> /alidata/www/pub</span><br><span class="line">    <span class="attribute"><span class="nomarkup">ServerName</span></span> pub.iamlj.com</span><br><span class="line">    <span class="section">&lt;Directory &quot;/alidata/www/pub&quot;&gt;</span></span><br><span class="line">        <span class="attribute"><span class="nomarkup">Options</span></span> FollowSymLinks</span><br><span class="line">        <span class="attribute">AllowOverride</span> <span class="literal">all</span></span><br><span class="line">        <span class="attribute"><span class="nomarkup">Order</span></span> allow,deny</span><br><span class="line">        <span class="attribute"><span class="nomarkup">Allow</span></span> from <span class="literal">all</span></span><br><span class="line">    <span class="section">&lt;/Directory&gt;</span></span><br><span class="line">    <span class="section">&lt;IfModule mod_rewrite.c&gt;</span></span><br><span class="line">        <span class="attribute"><span class="nomarkup">RewriteEngine</span></span> <span class="literal">On</span></span><br><span class="line">        <span class="attribute"><span class="nomarkup">RewriteRule</span></span> ^(.*)-htm-(.*)$ .php?</span><br><span class="line">        <span class="attribute"><span class="nomarkup">RewriteRule</span></span> ^(.*)/simple/([a-z0-9\_]+\.html)$ /simple/index.php?</span><br><span class="line">    <span class="section">&lt;/IfModule&gt;</span></span><br><span class="line">    <span class="attribute">ErrorLog</span> <span class="string">&quot;/alidata/log/httpd/pub-error.log&quot;</span></span><br><span class="line">    <span class="attribute">CustomLog</span> <span class="string">&quot;/alidata/log/httpd/pub.log&quot;</span> common</span><br><span class="line"><span class="section">&lt;/VirtualHost&gt;</span></span><br></pre></td></tr></table></figure>
+<p>Nginx&#x7684;&#x914D;&#x7F6E;<br>&#x5982;&#x679C;&#x6709;&#x5176;&#x4ED6;&#x7684;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;&#x540C;&#x6837;&#x9002;&#x7528;&#x3002;</p>
+<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="section">server</span> {</span><br><span class="line">        <span class="attribute">listen</span>       <span class="number">80</span>;</span><br><span class="line">        <span class="attribute">server_name</span>  www.iamlj.com;</span><br><span class="line">    <span class="attribute">index</span> index.html index.htm index.php;</span><br><span class="line">    <span class="attribute">root</span> /alidata/www/www;</span><br><span class="line">    <span class="attribute">location</span> <span class="regexp">~ .*\.(php|php5)?$</span></span><br><span class="line">    {</span><br><span class="line">        <span class="comment">#fastcgi_pass  unix:/tmp/php-cgi.sock;</span></span><br><span class="line">        <span class="attribute">fastcgi_pass</span>  <span class="number">127.0.0.1:9000</span>;</span><br><span class="line">        <span class="attribute">fastcgi_index</span> index.php;</span><br><span class="line">        <span class="attribute">include</span> fastcgi.conf;</span><br><span class="line">    }</span><br><span class="line">    <span class="attribute">location</span> <span class="regexp">~ .*\.(gif|jpg|jpeg|png|bmp|swf)$</span></span><br><span class="line">    {</span><br><span class="line">        <span class="attribute">expires</span> <span class="number">30d</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="attribute">location</span> <span class="regexp">~ .*\.(js|css)?$</span></span><br><span class="line">    {</span><br><span class="line">        <span class="attribute">expires</span> <span class="number">1h</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="comment">#&#x4F2A;&#x9759;&#x6001;&#x89C4;&#x5219;</span></span><br><span class="line">    <span class="comment">#include /alidata/server/nginx/conf/rewrite/www.conf;</span></span><br><span class="line">    <span class="attribute">access_log</span>  /alidata/log/nginx/access/www.log;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<h3 id="&#x8FD0;&#x884C;&#x9879;&#x76EE;"><a href="#&#x8FD0;&#x884C;&#x9879;&#x76EE;" class="headerlink" title="&#x8FD0;&#x884C;&#x9879;&#x76EE;"></a>&#x8FD0;&#x884C;&#x9879;&#x76EE;</h3><p><code>service httpd restart</code></p>
+<h2 id="&#x81EA;&#x52A8;&#x66F4;&#x65B0;&#x4EE3;&#x7801;"><a href="#&#x81EA;&#x52A8;&#x66F4;&#x65B0;&#x4EE3;&#x7801;" class="headerlink" title="&#x81EA;&#x52A8;&#x66F4;&#x65B0;&#x4EE3;&#x7801;"></a>&#x81EA;&#x52A8;&#x66F4;&#x65B0;&#x4EE3;&#x7801;</h2><h3 id="&#x5BA2;&#x6237;&#x673A;&#x66F4;&#x65B0;SVN&#x4EE3;&#x7801;"><a href="#&#x5BA2;&#x6237;&#x673A;&#x66F4;&#x65B0;SVN&#x4EE3;&#x7801;" class="headerlink" title="&#x5BA2;&#x6237;&#x673A;&#x66F4;&#x65B0;SVN&#x4EE3;&#x7801;"></a>&#x5BA2;&#x6237;&#x673A;&#x66F4;&#x65B0;SVN&#x4EE3;&#x7801;</h3><p><code>svn checkout svn://121.42.61.155:58888</code><br><img src="/2015/09/add-demo-for-blog-svn-way/iamlj_201607150928.png" alt=""></p>
+<h3 id="&#x4FEE;&#x6539;&#x63D0;&#x4EA4;"><a href="#&#x4FEE;&#x6539;&#x63D0;&#x4EA4;" class="headerlink" title="&#x4FEE;&#x6539;&#x63D0;&#x4EA4;"></a>&#x4FEE;&#x6539;&#x63D0;&#x4EA4;</h3><p><img src="/2015/09/add-demo-for-blog-svn-way/iamlj_201607150745.png" alt=""></p>
+<h3 id="&#x53D1;&#x73B0;&#x53D8;&#x5316;"><a href="#&#x53D1;&#x73B0;&#x53D8;&#x5316;" class="headerlink" title="&#x53D1;&#x73B0;&#x53D8;&#x5316;"></a>&#x53D1;&#x73B0;&#x53D8;&#x5316;</h3><p><img src="/2015/09/add-demo-for-blog-svn-way/iamlj_201607150849.png" alt=""></p>
+<h3 id="&#x8BBF;&#x95EE;&#x7F51;&#x5740;"><a href="#&#x8BBF;&#x95EE;&#x7F51;&#x5740;" class="headerlink" title="&#x8BBF;&#x95EE;&#x7F51;&#x5740;"></a>&#x8BBF;&#x95EE;&#x7F51;&#x5740;</h3><p><img src="http://7xncbk.com1.z0.glb.clouddn.com/iamlj_201607151054.png" alt=""></p>
+<h2 id="&#x603B;&#x7ED3;"><a href="#&#x603B;&#x7ED3;" class="headerlink" title="&#x603B;&#x7ED3;"></a>&#x603B;&#x7ED3;</h2><p>&#x56DE;&#x987E;&#x4E00;&#x4E0B;&#x57FA;&#x672C;&#x6D41;&#x7A0B;&#xFF1A;<strong>&#x5BA2;&#x6237;&#x7AEF;&#x63D0;&#x4EA4;SVN&#x4EE3;&#x7801;-&gt;SVN&#x670D;&#x52A1;&#x5668;&#x94A9;&#x5B50;&#x62E6;&#x622A;-&gt;&#x6267;&#x884C;&#x94A9;&#x5B50;&#x547D;&#x4EE4;&#xFF0C;&#x66F4;&#x65B0;&#x670D;&#x52A1;&#x7AEF;&#x7684;&#x7F51;&#x7AD9;&#x8FD0;&#x884C;&#x4EE3;&#x7801;</strong>&#x3002;&#x8FD9;&#x91CC;&#xFF0C;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x914D;&#x7F6E;&#x662F;&#x7684;<code>Apache</code>&#xFF0C;&#x90A3;&#x6F14;&#x793A;&#x7684;&#x4EE3;&#x7801;&#x4ED3;&#x5E93;&#x5C31;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;PHP&#x548C;HTML&#xFF0C;&#x5982;&#x679C;&#x662F;<code>Tomcat</code>&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;<code>JSP</code>&#x548C;<code>HTML</code>&#x3002;&#x56E0;&#x4E3A;JSP&#x9700;&#x8981;&#x7F16;&#x8BD1;&#x6253;&#x5305;&#xFF0C;&#x4E0D;&#x5229;&#x4E8E;&#x70ED;&#x90E8;&#x7F72;&#xFF0C;&#x6240;&#x4EE5;&#x4E00;&#x822C;&#x5927;&#x5BB6;&#x90FD;&#x662F;&#x9009;&#x62E9;&#x7528;PHP&#x7684;&#x670D;&#x52A1;&#x5668;&#x3002;</p>
+<p>&#x73B0;&#x5728;&#x8FD9;&#x6837;&#x7684;&#x66F4;&#x65B0;&#x7B56;&#x7565;&#xFF0C;&#x5176;&#x5B9E;&#x6548;&#x679C;&#x548C;<code>&#x65B0;&#x6D6A;SAE&#x7684;SVN&#x6216;Git&#x63D0;&#x4EA4;&#x4EE3;&#x7801;</code>&#xFF0C;&#x8FD8;&#x6709;<code>Github&#x7684;&#x7AD9;&#x70B9;&#x53D1;&#x5E03;</code>&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;Web Url&#x53CA;&#x65F6;&#x9884;&#x89C8;&#x6548;&#x679C;&#x3002;&#x6211;&#x4EE5;&#x524D;&#x7528;&#x7684;&#x662F;<code>Jenkins</code>&#x505A;&#x7684;&#x81EA;&#x52A8;&#x6784;&#x5EFA;&#xFF0C;&#x5BF9;&#x4E8E;&#x5404;&#x79CD;&#x6784;&#x5EFA;&#x652F;&#x6301;&#x975E;&#x5E38;&#x597D;&#xFF01;<br>&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x9009;&#x62E9;&#x7684;<code>Linux+Apache+SVN</code>&#x8FBE;&#x5230;&#x7684;&#x81EA;&#x52A8;&#x6784;&#x5EFA;&#x3002;&#x6574;&#x4F53;&#x4E0A;&#x8FD8;&#x662F;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#x7684;&#x3002;<br>&#x5982;&#x679C;<code>Svnbersion</code>&#x670D;&#x52A1;&#x5668;&#x4ED3;&#x5E93;&#x548C;&#x4EE3;&#x7801;&#x8FD0;&#x884C;&#x4E0D;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x90A3;&#x5C31;&#x5FC5;&#x987B;&#x8981;&#x7528;<code>Jenkins</code>&#xFF0C;&#x5B9E;&#x73B0;&#x4E00;&#x7AD9;&#x5F0F;&#x7684;&#x6784;&#x5EFA;&#x65B9;&#x6848;&#x4E86;&#x3002;</p>
+<p>&#x6700;&#x540E;&#xFF0C;&#x4E0A;&#x8FF0;&#x6D89;&#x53CA;&#x5230;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5728;&#x6B64;&#xFF1A;<a href="https://yunpan.cn/cBSqSDD3W3Dwx" target="_blank" rel="external">https://yunpan.cn/cBSqSDD3W3Dwx</a>  &#x8BBF;&#x95EE;&#x5BC6;&#x7801; 0702&#x3002;&#x5B9E;&#x9645;&#x64CD;&#x4F5C;&#x6709;&#x53EF;&#x80FD;&#x4F1A;&#x78B0;&#x5230;&#x4E00;&#x4E9B;&#x95EE;&#x9898;&#xFF0C;&#x6BD4;&#x5982;SVN&#x4E71;&#x7801;&#xFF0C;&#x5982;&#x4F55;&#x8FD0;&#x884C;&#x3001;&#x6784;&#x5EFA;&#x591A;&#x4E2A;&#x9879;&#x76EE;&#x3002;&#x78B0;&#x5230;&#x95EE;&#x9898;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x5373;&#x53EF;&#x3002;</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
+          
+            <a href="/tags/演示/" rel="tag">#演示</a>
+          
+            <a href="/tags/Next/" rel="tag">#Next</a>
+          
+            <a href="/tags/SVN/" rel="tag">#SVN</a>
+          
+            <a href="/tags/Svnbersion/" rel="tag">#Svnbersion</a>
+          
+            <a href="/tags/自动构建/" rel="tag">#自动构建</a>
+          
+            <a href="/tags/Apache/" rel="tag">#Apache</a>
+          
+            <a href="/tags/Nginx/" rel="tag">#Nginx</a>
+          
+            <a href="/tags/CentOS/" rel="tag">#CentOS</a>
+          
+            <a href="/tags/Tomcat/" rel="tag">#Tomcat</a>
+          
+            <a href="/tags/Linux/" rel="tag">#Linux</a>
+          
+            <a href="/tags/Jenkins/" rel="tag">#Jenkins</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/09/add-demo-for-blog-together-with-blog/" rel="next" title="为博客添加演示地址 - 将演示与博客代码一起发布（一）">
+                <i class="fa fa-chevron-left"></i> 为博客添加演示地址 - 将演示与博客代码一起发布（一）
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/09/a-vivid-song-counting-stars/" rel="prev" title="Counting Stars - 一首很带感的摇滚歌">
+                Counting Stars - 一首很带感的摇滚歌 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2015/09/add-demo-for-blog-svn-way/"
+     data-title="为博客添加演示地址 - 通过SVN自动化构建代码（二）"
+     data-content=""
+     data-url="http://www.iamlj.com/2015/09/add-demo-for-blog-svn-way/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  <p>热评文章</p>
+  <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2015/09/add-demo-for-blog-svn-way/"
+           data-title="为博客添加演示地址 - 通过SVN自动化构建代码（二）" data-url="http://www.iamlj.com/2015/09/add-demo-for-blog-svn-way/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/uploads/avatar.png"
+               alt="刘靖" />
+          <p class="site-author-name" itemprop="name">刘靖</p>
+          <p class="site-description motion-element" itemprop="description">Create like a god.<br/>Command like a king.<br/>Work like a slave.</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">61</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">173</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+              <a title="收藏到书签，偶尔High一下^_^" rel="alternate" class="mw-harlem_shake_slow wobble shake" href='javascript:(function() {
+    function c() {
+        var e = document.createElement("link");
+        e.setAttribute("type", "text/css");
+        e.setAttribute("rel", "stylesheet");
+        e.setAttribute("href", f);
+        e.setAttribute("class", l);
+        document.body.appendChild(e)
+    }
+ 
+    function h() {
+        var e = document.getElementsByClassName(l);
+        for (var t = 0; t < e.length; t++) {
+            document.body.removeChild(e[t])
+        }
+    }
+ 
+    function p() {
+        var e = document.createElement("div");
+        e.setAttribute("class", a);
+        document.body.appendChild(e);
+        setTimeout(function() {
+            document.body.removeChild(e)
+        }, 100)
+    }
+ 
+    function d(e) {
+        return {
+            height : e.offsetHeight,
+            width : e.offsetWidth
+        }
+    }
+ 
+    function v(i) {
+        var s = d(i);
+        return s.height > e && s.height < n && s.width > t && s.width < r
+    }
+ 
+    function m(e) {
+        var t = e;
+        var n = 0;
+        while (!!t) {
+            n += t.offsetTop;
+            t = t.offsetParent
+        }
+        return n
+    }
+ 
+    function g() {
+        var e = document.documentElement;
+        if (!!window.innerWidth) {
+            return window.innerHeight
+        } else if (e && !isNaN(e.clientHeight)) {
+            return e.clientHeight
+        }
+        return 0
+    }
+ 
+    function y() {
+        if (window.pageYOffset) {
+            return window.pageYOffset
+        }
+        return Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+    }
+ 
+    function E(e) {
+        var t = m(e);
+        return t >= w && t <= b + w
+    }
+ 
+    function S() {
+        var e = document.createElement("audio");
+        e.setAttribute("class", l);
+        e.src = i;
+        e.loop = false;
+        e.addEventListener("canplay", function() {
+            setTimeout(function() {
+                x(k)
+            }, 500);
+            setTimeout(function() {
+                N();
+                p();
+                for (var e = 0; e < O.length; e++) {
+                    T(O[e])
+                }
+            }, 15500)
+        }, true);
+        e.addEventListener("ended", function() {
+            N();
+            h()
+        }, true);
+        e.innerHTML = " <p>If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.</p> <p>";
+        document.body.appendChild(e);
+        e.play()
+    }
+ 
+    function x(e) {
+        e.className += " " + s + " " + o
+    }
+ 
+    function T(e) {
+        e.className += " " + s + " " + u[Math.floor(Math.random() * u.length)]
+    }
+ 
+    function N() {
+        var e = document.getElementsByClassName(s);
+        var t = new RegExp("\\b" + s + "\\b");
+        for (var n = 0; n < e.length; ) {
+            e[n].className = e[n].className.replace(t, "")
+        }
+    }
+ 
+    var e = 30;
+    var t = 30;
+    var n = 350;
+    var r = 350;
+    var i = "//7xncbk.com1.z0.glb.clouddn.com/harlem-shake.mp3";
+    var s = "mw-harlem_shake_me";
+    var o = "im_first";
+    var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
+    var a = "mw-strobe_light";
+    var f = "//7xncbk.com1.z0.glb.clouddn.com/harlem-shake-style.css";
+    var l = "mw_added_css";
+    var b = g();
+    var w = y();
+    var C = document.getElementsByTagName("*");
+    var k = null;
+    for (var L = 0; L < C.length; L++) {
+        var A = C[L];
+        if (v(A)) {
+            if (E(A)) {
+                k = A;
+                break
+            }
+        }
+    }
+    if (A === null) {
+        console.warn("Could not find a node of the right size. Please try a different page.");
+        return
+    }
+    c();
+    S();
+    var O = [];
+    for (var L = 0; L < C.length; L++) {
+        var A = C[L];
+        if (v(A)) {
+            O.push(A)
+        }
+    }
+})()'><i class="fa fa-music"></i> High</a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/shliujing" target="_blank" title="GitHub" rel="external nofollow">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.zhihu.com/people/shliujing" target="_blank" title="知乎" rel="external nofollow">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  知乎
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:i@iamlj.com" target="_blank" title="Email&nbsp;&nbsp;" rel="external nofollow">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Email&nbsp;&nbsp;
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/cnliujing" target="_blank" title="微博" rel="external nofollow">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank" rel="external nofollow">
+              <img width=80 src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              友情链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://blog.csdn.net/youbingchen" title="youbingchen" target="_blank">youbingchen</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.jeffjade.com" title="晚晴幽草轩" target="_blank">晚晴幽草轩</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.trtrtr6.com" title="trtrtr6" target="_blank">trtrtr6</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://leaful.com" title="叶·色" target="_blank">叶·色</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://quericy.me" title="quericy" target="_blank">quericy</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://sanko.me/" title="sanko" target="_blank">sanko</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#说明"><span class="nav-number">1.</span> <span class="nav-text">说明</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#目录声明"><span class="nav-number">1.1.</span> <span class="nav-text">目录声明</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建SVN仓库与钩子"><span class="nav-number">2.</span> <span class="nav-text">创建SVN仓库与钩子</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建svn仓库仓库"><span class="nav-number">2.1.</span> <span class="nav-text">创建svn仓库仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置SVN账号"><span class="nav-number">2.2.</span> <span class="nav-text">配置SVN账号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置钩子与启动"><span class="nav-number">2.3.</span> <span class="nav-text">设置钩子与启动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置开机启动仓库"><span class="nav-number">2.4.</span> <span class="nav-text">设置开机启动仓库</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置Apache站点"><span class="nav-number">3.</span> <span class="nav-text">配置Apache站点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建项目目录"><span class="nav-number">3.1.</span> <span class="nav-text">创建项目目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置虚拟主机"><span class="nav-number">3.2.</span> <span class="nav-text">配置虚拟主机</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运行项目"><span class="nav-number">3.3.</span> <span class="nav-text">运行项目</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自动更新代码"><span class="nav-number">4.</span> <span class="nav-text">自动更新代码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#客户机更新SVN代码"><span class="nav-number">4.1.</span> <span class="nav-text">客户机更新SVN代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改提交"><span class="nav-number">4.2.</span> <span class="nav-text">修改提交</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#发现变化"><span class="nav-number">4.3.</span> <span class="nav-text">发现变化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#访问网址"><span class="nav-number">4.4.</span> <span class="nav-text">访问网址</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">刘靖</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io" rel="external nofollow">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="http://7xncbk.com1.z0.glb.clouddn.com/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/velocity/1.2.3/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/velocity/1.2.3/velocity.ui.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+<script type="text/javascript" async src="//7xncbk.com1.z0.glb.clouddn.com/push.js">
+</script>
+
+  
+<script type="text/javascript" async src="//js.passport.qihucdn.com/11.0.1.js?5d1b411d886fb12fbd647aa010431b73">
+</script>
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"shliujing"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//7xncbk.com1.z0.glb.clouddn.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+      
+      <script src="///cdn.bootcss.com/UAParser.js/0.7.10/ua-parser.min.js"></script>
+      <script src="/js/src/hook-duoshuo.js"></script>
+    
+  
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
+  <script src="http://7xncbk.com1.z0.glb.clouddn.com/static/js/a-v-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("bxJr1CLQhOXHF1IWtUgWLjY0-gzGzoHsz", "vFu2F6IgjAVHcbAwYwjhJd7g");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0+"°C");
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time+"°C");
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0+"°C");
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time')+"°C");
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time')+"°C");
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+
+
+</body>
+</html>

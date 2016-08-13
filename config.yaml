@@ -1,0 +1,6 @@
+name: iamlj
+version: 1
+
+handle:
+- rewrite: if(in_header["host"] ~ "^iamlj.applinzi.com" && path ~ "^(.*)$") goto "http://www.iamlj.com$1 [L,QSA,R=301]" 
+- rewrite: if(in_header["host"] ~ "^1.iamlj.applinzi.com" && path ~ "^(.*)$") goto "http://www.iamlj.com$1 [L,QSA,R=301]"
