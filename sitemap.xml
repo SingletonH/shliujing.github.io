@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.iamlj.com/tags/index.html</loc>
+    
+    <lastmod>2016-08-17T08:44:06.810Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.iamlj.com/categories/index.html</loc>
+    
+    <lastmod>2016-08-17T08:43:58.111Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.iamlj.com/2015/08/markdown-learning-by-cmdmardown/</loc>
     
     <lastmod>2016-08-14T06:29:06.748Z</lastmod>
@@ -100,13 +114,6 @@
   </url>
   
   <url>
-    <loc>http://www.iamlj.com/tags/index.html</loc>
-    
-    <lastmod>2016-07-24T11:48:41.937Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.iamlj.com/2016/01/a-movie-monster-hunt/</loc>
     
     <lastmod>2016-07-24T11:46:44.854Z</lastmod>
@@ -166,13 +173,6 @@
     <loc>http://www.iamlj.com/2016/07/a-movie-captain-america/</loc>
     
     <lastmod>2016-07-21T14:57:34.756Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.iamlj.com/categories/index.html</loc>
-    
-    <lastmod>2016-07-21T14:40:52.201Z</lastmod>
     
   </url>
   
