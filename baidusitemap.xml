@@ -245,6 +245,28 @@
 
     
   <url>
+    <loc>http://www.iamlj.com/2015/08/a-pure-and-fresh-guitar-song/</loc>
+    <lastmod>2016-08-06T06:35:01.190Z</lastmod>
+    <data>
+        <display>
+        <title>不知名 - 一首沁人心脾的吉他曲</title>
+        <pubTime>2015-08-20T15:10:47.000Z</pubTime>
+        
+        <tag>Music</tag>
+         
+        <tag>沁人心脾</tag>
+         
+         
+           
+             
+              <breadCrumb title="Life" url="http://www.iamlj.com/categories/Life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.iamlj.com/2016/07/add-auto-backup-function-for-hexo/</loc>
     <lastmod>2016-08-06T06:35:01.190Z</lastmod>
     <data>
@@ -262,28 +284,6 @@
            
              
               <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.iamlj.com/2015/08/a-pure-and-fresh-guitar-song/</loc>
-    <lastmod>2016-08-06T06:35:01.190Z</lastmod>
-    <data>
-        <display>
-        <title>不知名 - 一首沁人心脾的吉他曲</title>
-        <pubTime>2015-08-20T15:10:47.000Z</pubTime>
-        
-        <tag>Music</tag>
-         
-        <tag>沁人心脾</tag>
-         
-         
-           
-             
-              <breadCrumb title="Life" url="http://www.iamlj.com/categories/Life/"/>
           
         </display>
     </data>
