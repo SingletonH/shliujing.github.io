@@ -3,6 +3,64 @@
 
 
     
+  <url>
+    <loc>http://www.iamlj.com/2016/09/learing-vue/</loc>
+    <lastmod>2016-09-02T03:22:59.802Z</lastmod>
+    <data>
+        <display>
+        <title>Vue.js入门简记</title>
+        <pubTime>2016-09-01T01:13:58.000Z</pubTime>
+        
+        <tag>Vue</tag>
+         
+        <tag>Angular</tag>
+         
+        <tag>React</tag>
+         
+        <tag>MVVM</tag>
+         
+        <tag>Axure</tag>
+         
+        <tag>MapReduce</tag>
+         
+        <tag>快速入门</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.iamlj.com/2016/08/add-special-effect-harlem-shake-for-hexo/</loc>
+    <lastmod>2016-09-01T01:32:40.661Z</lastmod>
+    <data>
+        <display>
+        <title>为Hexo Next主题添加哈林摇特效（五）</title>
+        <pubTime>2016-08-02T04:15:16.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>哈林摇特效</tag>
+         
+        <tag>Harlem Shake</tag>
+         
+        <tag>high</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
   <url>
@@ -17,13 +75,13 @@
          
         <tag>Markdown</tag>
          
+        <tag>快速入门</tag>
+         
         <tag>马克飞象</tag>
          
         <tag>作业部落</tag>
          
         <tag>Cmd Markdown</tag>
-         
-        <tag>快速入门</tag>
          
          
            
@@ -61,32 +119,6 @@
     
     
   <url>
-    <loc>http://www.iamlj.com/2016/08/add-special-effect-harlem-shake-for-hexo/</loc>
-    <lastmod>2016-08-09T00:36:05.030Z</lastmod>
-    <data>
-        <display>
-        <title>为Hexo Next主题添加哈林摇特效（五）</title>
-        <pubTime>2016-08-02T04:15:16.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>哈林摇特效</tag>
-         
-        <tag>Harlem Shake</tag>
-         
-        <tag>high</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.iamlj.com/2016/07/add-heat-function-for-hexo/</loc>
     <lastmod>2016-08-09T00:36:05.025Z</lastmod>
     <data>
@@ -96,39 +128,11 @@
         
         <tag>Hexo</tag>
          
-        <tag>Next</tag>
-         
         <tag>系列教程</tag>
          
+        <tag>Next</tag>
+         
         <tag>热度功能</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.iamlj.com/2015/10/use-the-windows-batch-command-batch-to-convert-the-string-case/</loc>
-    <lastmod>2016-08-06T06:35:01.203Z</lastmod>
-    <data>
-        <display>
-        <title>使用Windows Bat批处理命令转换字符串大小写</title>
-        <pubTime>2015-10-05T14:28:12.000Z</pubTime>
-        
-        <tag>Windows</tag>
-         
-        <tag>AutoHotkey</tag>
-         
-        <tag>大小写转换</tag>
-         
-        <tag>Cmd</tag>
-         
-        <tag>批处理</tag>
          
          
            
@@ -159,6 +163,34 @@
         <tag>截图改名</tag>
          
         <tag>替换文件名</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.iamlj.com/2015/10/use-the-windows-batch-command-batch-to-convert-the-string-case/</loc>
+    <lastmod>2016-08-06T06:35:01.203Z</lastmod>
+    <data>
+        <display>
+        <title>使用Windows Bat批处理命令转换字符串大小写</title>
+        <pubTime>2015-10-05T14:28:12.000Z</pubTime>
+        
+        <tag>Windows</tag>
+         
+        <tag>AutoHotkey</tag>
+         
+        <tag>大小写转换</tag>
+         
+        <tag>Cmd</tag>
+         
+        <tag>批处理</tag>
          
          
            
@@ -368,11 +400,11 @@
          
         <tag>影评</tag>
          
+        <tag>动漫</tag>
+         
         <tag>童话故事</tag>
          
         <tag>煎饼侠</tag>
-         
-        <tag>动漫</tag>
          
         <tag>捉妖记</tag>
          
@@ -627,11 +659,11 @@
         
         <tag>演示</tag>
          
+        <tag>PPT</tag>
+         
         <tag>HTML5</tag>
          
         <tag>易企秀</tag>
-         
-        <tag>PPT</tag>
          
         <tag>源码</tag>
          
@@ -973,11 +1005,11 @@
          
         <tag>Markdown</tag>
          
+        <tag>快速入门</tag>
+         
         <tag>马克飞象</tag>
          
         <tag>Cmd Markdown</tag>
-         
-        <tag>快速入门</tag>
          
          
            
@@ -1001,11 +1033,11 @@
          
         <tag>Markdown</tag>
          
+        <tag>快速入门</tag>
+         
         <tag>马克飞象</tag>
          
         <tag>Cmd Markdown</tag>
-         
-        <tag>快速入门</tag>
          
         <tag>简书</tag>
          
@@ -1213,6 +1245,10 @@
          
         <tag>快捷键</tag>
          
+        <tag>常用</tag>
+         
+        <tag>Mac</tag>
+         
         <tag>IDEA</tag>
          
         <tag>Jetbrains</tag>
@@ -1220,10 +1256,6 @@
         <tag>PhpStorm</tag>
          
         <tag>WebStorm</tag>
-         
-        <tag>常用</tag>
-         
-        <tag>Mac</tag>
          
         <tag>网盘分享</tag>
          
@@ -1249,17 +1281,17 @@
          
         <tag>快捷键</tag>
          
-        <tag>常用</tag>
-         
-        <tag>Mac</tag>
-         
         <tag>Evernote</tag>
          
         <tag>印象笔记</tag>
          
         <tag>有道云笔记</tag>
          
+        <tag>常用</tag>
+         
         <tag>剪藏</tag>
+         
+        <tag>Mac</tag>
          
          
            
