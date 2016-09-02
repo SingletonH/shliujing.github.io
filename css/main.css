@@ -452,11 +452,11 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 900px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
-    width: 1200px;
+    width: 900px;
   }
 }
 .main {
@@ -464,11 +464,11 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 900px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
-    width: 1200px;
+    width: 900px;
   }
 }
 .footer {
@@ -481,11 +481,11 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 900px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
-    width: 1200px;
+    width: 900px;
   }
 }
 pre,
@@ -1549,7 +1549,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #df77f2;
+  background: #db0dbf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2127,8 +2127,7 @@ a.search-result {
   overflow: hidden;
 }
 body {
-  background: url("/images/bg.png") repeat;
-  background-attachment: fixed;
+  background: #f5f7f9;
 }
 @media (min-width: 992px) {
   .full-image.full-image.full-image {
@@ -2140,7 +2139,7 @@ body {
 .header {
   position: relative;
   margin: 0 auto;
-  width: 1180px;
+  width: 970px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -2157,12 +2156,12 @@ body {
   top: 0;
   overflow: hidden;
   padding: 0;
-  width: 250px;
+  width: 240px;
   background: #fff;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
-    width: 250px;
+    width: 240px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2196,7 +2195,7 @@ body {
   }
 }
 .container .main-inner {
-  width: 1180px;
+  width: 970px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2212,7 +2211,7 @@ body {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 900px;
+  width: 700px;
   background: #fff;
   min-height: 700px;
 }
@@ -2233,7 +2232,7 @@ body {
   position: static;
   float: left;
   margin-top: 300px;
-  width: 250px;
+  width: 240px;
   background: #fff;
   box-shadow: none;
 }
@@ -2251,7 +2250,7 @@ body {
   display: none;
 }
 .footer-inner {
-  width: 1180px;
+  width: 970px;
 }
 .footer-inner:before {
   content: " ";
@@ -2393,7 +2392,7 @@ body {
 }
 .sidebar-inner {
   box-sizing: border-box;
-  width: 250px;
+  width: 240px;
   color: #555;
   background: #fff;
 }

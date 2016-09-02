@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.iamlj.com/"/>
-  <updated>2016-09-02T03:22:59.802Z</updated>
+  <updated>2016-09-02T03:36:01.842Z</updated>
   <id>http://www.iamlj.com/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://www.iamlj.com/2016/09/learing-vue/"/>
     <id>http://www.iamlj.com/2016/09/learing-vue/</id>
     <published>2016-09-01T01:13:58.000Z</published>
-    <updated>2016-09-02T03:22:59.802Z</updated>
+    <updated>2016-09-02T03:36:01.842Z</updated>
     
     <content type="html"><![CDATA[<p>&#x5FD9;&#x91CC;&#x5077;&#x95F2;&#xFF0C;&#x7B80;&#x5355;&#x603B;&#x7ED3;&#x4E00;&#x4E0B;&#x6628;&#x665A;&#x521A;&#x5B66;&#x4E60;&#x7684;Vue&#x5165;&#x95E8;&#x77E5;&#x8BC6;&#x3002;Vue&#x662F;&#x4E2A;&#x4EC0;&#x4E48;&#x4E1C;&#x897F;&#xFF1F;&#x901A;&#x8FC7;&#x4E0B;&#x56FE;&#x7B49;&#x5F0F;<strong>10 &#x79D2;&#x949F;&#x770B;&#x61C2; Vue.js</strong>&#xFF1A;</p>
 <p><img src="/2016/09/learing-vue/iamlj_20160901092455.png" alt="10&#x79D2;&#x770B;&#x61C2;"></p>
 <a id="more"></a> 
-<h2 id="&#x6211;&#x7684;&#x7406;&#x89E3;"><a href="#&#x6211;&#x7684;&#x7406;&#x89E3;" class="headerlink" title="&#x6211;&#x7684;&#x7406;&#x89E3;"></a>&#x6211;&#x7684;&#x7406;&#x89E3;</h2><p>Vue&#x662F;<code>MVVM</code>&#x6A21;&#x578B;&#x7684;&#x4EE3;&#x8868;&#xFF0C;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x5728;&#x524D;&#x7AEF;&#x505A;DOM&#x548C;&#x6570;&#x636E;&#x7684;&#x7ED1;&#x5B9A;&#x63A7;&#x5236;&#xFF0C;&#x6BD4;&#x5E38;&#x89C4;&#x76F4;&#x63A5;&#x64CD;&#x4F5C;DOM&#x7684;&#x65B9;&#x6CD5;&#x62E5;&#x6709;&#x66F4;&#x9AD8;&#x7684;&#x6548;&#x7387;&#xFF0C;&#x5176;&#x4ED6;&#x7684;&#x7C7B;&#x4F3C;&#x7684;&#x8FD8;&#x6709;<code>React</code>&#x548C;<code>Angular</code>&#x3002;&#x7167;&#x6211;&#x7684;&#x7406;&#x89E3;&#xFF0C;&#x8FD9;&#x7C7B;&#x6846;&#x67B6;&#x662F;&#x540E;&#x7AEF;&#x7684;&#x601D;&#x7EF4;&#x5EF6;&#x4F38;&#x5230;&#x524D;&#x7AEF;&#x7684;&#x5E94;&#x7528;&#x4E0A;&#xFF0C;&#x7C7B;&#x4F3C;&#x7684;&#x6280;&#x672F;&#x8FD8;&#x6709;&#x5F88;&#x591A;&#x3002;&#x6BD4;&#x5982;MVC-&gt;MVVM&#xFF0C;&#x4F20;&#x7EDF;&#x7684;&#x540E;&#x7AEF;CI&#x5DE5;&#x5177;&#xFF08;Hudson/Jenkins) -&gt; CircleCI/TravisCI&#x7B49;&#xFF0C;Maven/PHAR/Composer-&gt;NPM&#xFF0C;Gulp&#xFF0C;Webpack&#x7B49;&#x3002;&#x5927;&#x6982;&#x5C31;&#x662F;&#x8FD9;&#x4E48;&#x4E2A;&#x610F;&#x601D;&#xFF0C;&#x53EF;&#x80FD;&#x6BD4;&#x55BB;&#x4E0D;&#x592A;&#x6070;&#x5F53;&#xFF0C;&#x6211;&#x505A;&#x7684;&#x540E;&#x7AEF;&#x6BD4;&#x8F83;&#x591A;&#xFF0C;&#x524D;&#x7AEF;&#x4E86;&#x89E3;&#x8F83;&#x6D45;&#x3002;&#x8FD9;&#x91CC;&#x53EA;&#x662F;&#x7ED3;&#x5408;&#x6211;&#x7684;&#x4E00;&#x4E9B;&#x7ECF;&#x9A8C;&#x548C;&#x4F53;&#x4F1A;&#xFF0C;&#x63CF;&#x8FF0;&#x4E00;&#x79CD;&#x5F62;&#x5F0F;&#x548C;&#x8D8B;&#x52BF;&#x3002;</p>
+<h2 id="&#x6211;&#x7684;&#x7406;&#x89E3;"><a href="#&#x6211;&#x7684;&#x7406;&#x89E3;" class="headerlink" title="&#x6211;&#x7684;&#x7406;&#x89E3;"></a>&#x6211;&#x7684;&#x7406;&#x89E3;</h2><p>Vue&#x662F;<code>MVVM</code>&#x6A21;&#x578B;&#x7684;&#x4EE3;&#x8868;&#xFF0C;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x5728;&#x524D;&#x7AEF;&#x505A;DOM&#x548C;&#x6570;&#x636E;&#x7684;&#x7ED1;&#x5B9A;&#x63A7;&#x5236;&#xFF0C;&#x6BD4;&#x5E38;&#x89C4;&#x76F4;&#x63A5;&#x64CD;&#x4F5C;DOM&#x7684;&#x65B9;&#x6CD5;&#x62E5;&#x6709;&#x66F4;&#x9AD8;&#x7684;&#x6548;&#x7387;&#xFF0C;&#x5176;&#x4ED6;&#x7684;&#x7C7B;&#x4F3C;&#x7684;&#x8FD8;&#x6709;<code>React</code>&#x548C;<code>Angular</code>&#x3002;&#x7167;&#x6211;&#x7684;&#x7406;&#x89E3;&#xFF0C;&#x8FD9;&#x7C7B;&#x6846;&#x67B6;&#x662F;&#x540E;&#x7AEF;&#x7684;&#x601D;&#x7EF4;&#x5EF6;&#x4F38;&#x5230;&#x524D;&#x7AEF;&#x7684;&#x5E94;&#x7528;&#x4E0A;&#xFF0C;&#x7C7B;&#x4F3C;&#x7684;&#x6280;&#x672F;&#x8FD8;&#x6709;&#x5F88;&#x591A;&#x3002;&#x6BD4;&#x5982;MVC-&gt;MVVM&#xFF0C;&#x4F20;&#x7EDF;&#x7684;&#x540E;&#x7AEF;CI&#x5DE5;&#x5177;&#xFF08;Hudson/Jenkins) -&gt; CircleCI/TravisCI&#x7B49;&#xFF0C;Maven/PHAR/Composer -&gt; NPM&#xFF0C;Gulp&#xFF0C;Webpack&#x7B49;&#x3002;&#x5927;&#x6982;&#x5C31;&#x662F;&#x8FD9;&#x4E48;&#x4E2A;&#x610F;&#x601D;&#xFF0C;&#x53EF;&#x80FD;&#x6BD4;&#x55BB;&#x4E0D;&#x592A;&#x6070;&#x5F53;&#xFF0C;&#x6211;&#x505A;&#x7684;&#x540E;&#x7AEF;&#x6BD4;&#x8F83;&#x591A;&#xFF0C;&#x524D;&#x7AEF;&#x4E86;&#x89E3;&#x8F83;&#x6D45;&#x3002;&#x8FD9;&#x91CC;&#x53EA;&#x662F;&#x7ED3;&#x5408;&#x6211;&#x7684;&#x4E00;&#x4E9B;&#x7ECF;&#x9A8C;&#x548C;&#x4F53;&#x4F1A;&#xFF0C;&#x63CF;&#x8FF0;&#x4E00;&#x79CD;&#x5F62;&#x5F0F;&#x548C;&#x8D8B;&#x52BF;&#x3002;</p>
 <h2 id="Vue&#x7279;&#x70B9;"><a href="#Vue&#x7279;&#x70B9;" class="headerlink" title="Vue&#x7279;&#x70B9;"></a>Vue&#x7279;&#x70B9;</h2><ul>
 <li>&#x7B80;&#x6D01;&#xFF1A; HTML &#x6A21;&#x677F; + JSON &#x6570;&#x636E;&#xFF0C;&#x518D;&#x521B;&#x5EFA;&#x4E00;&#x4E2A; Vue &#x5B9E;&#x4F8B;&#xFF0C;&#x5C31;&#x8FD9;&#x4E48;&#x7B80;&#x5355;&#x3002;</li>
 <li>&#x6570;&#x636E;&#x9A71;&#x52A8;&#xFF1A; &#x81EA;&#x52A8;&#x8FFD;&#x8E2A;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x677F;&#x8868;&#x8FBE;&#x5F0F;&#x548C;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x3002;</li>
@@ -94,10 +94,10 @@
     <link href="http://www.iamlj.com/2016/08/add-special-effect-harlem-shake-for-hexo/"/>
     <id>http://www.iamlj.com/2016/08/add-special-effect-harlem-shake-for-hexo/</id>
     <published>2016-08-02T04:15:16.000Z</published>
-    <updated>2016-09-01T01:32:40.661Z</updated>
+    <updated>2016-09-02T07:24:02.155Z</updated>
     
     <content type="html"><![CDATA[<p>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x5F88;&#x6709;&#x8DA3;&#x7684;&#x54C8;&#x6797;&#x6447;&#x7279;&#x6548;&#xFF01;&#x6211;&#x5728;<a href="http://jijiaxin89.com/2bushi015/08/21/%E7%8E%A9%E8%BD%AChexo%E5%8D%9A%E5%AE%A2%E4%B9%8Bnext/?utm_source=tuicool&amp;utm_medium=referral/#&#x6DFB;&#x52A0;high&#x4E00;&#x4E0B;" target="_blank" rel="external">&#x6DFB;&#x52A0;high&#x4E00;&#x4E0B;</a>&#x4E2D;&#x770B;&#x5230;&#x7279;&#x6548;&#x4EE3;&#x7801;&#x540E;&#xFF0C;&#x7ACB;&#x9A6C;&#x5C31;&#x82B1;&#x4E86;&#x4E9B;&#x65F6;&#x95F4;&#xFF0C;&#x5C06;&#x7279;&#x6548;&#x5E03;&#x5C40;&#x505A;&#x5230;&#x9996;&#x9875;&#xFF0C;&#x5E76;&#x6DFB;&#x52A0;&#x521D;&#x59CB;&#x6643;&#x52A8;&#x6548;&#x679C;&#x3002;&#x73B0;&#x5728;&#x770B;&#x6765;&#xFF0C;&#x6548;&#x679C;&#x8FD8;&#x4E0D;&#x9519;&#xFF0C;<strong>&#x201C;RSS&#x201D;&#x548C;&#x201D;High&#x201D;</strong>&#x5E76;&#x6392;&#x5C55;&#x793A;&#xFF0C;&#x4F4E;&#x8C03;&#x53C8;&#x4E0D;&#x5931;&#x6D3B;&#x8DC3;&#x3002;</p>
-<h2 id="&#x6548;&#x679C;"><a href="#&#x6548;&#x679C;" class="headerlink" title="&#x6548;&#x679C;"></a>&#x6548;&#x679C;</h2><center><br><embed src="http://player.youku.com/player.php/sid/XMTY0ODY1Nzk0MA==/v.swf" allowfullscreen="true" quality="high" width="680" height="600" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash"><br></center>
+<h2 id="&#x6548;&#x679C;"><a href="#&#x6548;&#x679C;" class="headerlink" title="&#x6548;&#x679C;"></a>&#x6548;&#x679C;</h2><center><br><embed src="http://player.youku.com/player.php/sid/XMTY0ODY1Nzk0MA==/v.swf" allowfullscreen="true" quality="high" width="580" height="500" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash"><br></center>
 
 <a id="more"></a> 
 <p><strong>&#x7CFB;&#x5217;&#x6559;&#x7A0B;</strong></p>
@@ -125,7 +125,7 @@
     <summary type="html">
     
       &lt;p&gt;&amp;#x8FD9;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x5F88;&amp;#x6709;&amp;#x8DA3;&amp;#x7684;&amp;#x54C8;&amp;#x6797;&amp;#x6447;&amp;#x7279;&amp;#x6548;&amp;#xFF01;&amp;#x6211;&amp;#x5728;&lt;a href=&quot;http://jijiaxin89.com/2bushi015/08/21/%E7%8E%A9%E8%BD%AChexo%E5%8D%9A%E5%AE%A2%E4%B9%8Bnext/?utm_source=tuicool&amp;amp;utm_medium=referral/#&amp;#x6DFB;&amp;#x52A0;high&amp;#x4E00;&amp;#x4E0B;&quot;&gt;&amp;#x6DFB;&amp;#x52A0;high&amp;#x4E00;&amp;#x4E0B;&lt;/a&gt;&amp;#x4E2D;&amp;#x770B;&amp;#x5230;&amp;#x7279;&amp;#x6548;&amp;#x4EE3;&amp;#x7801;&amp;#x540E;&amp;#xFF0C;&amp;#x7ACB;&amp;#x9A6C;&amp;#x5C31;&amp;#x82B1;&amp;#x4E86;&amp;#x4E9B;&amp;#x65F6;&amp;#x95F4;&amp;#xFF0C;&amp;#x5C06;&amp;#x7279;&amp;#x6548;&amp;#x5E03;&amp;#x5C40;&amp;#x505A;&amp;#x5230;&amp;#x9996;&amp;#x9875;&amp;#xFF0C;&amp;#x5E76;&amp;#x6DFB;&amp;#x52A0;&amp;#x521D;&amp;#x59CB;&amp;#x6643;&amp;#x52A8;&amp;#x6548;&amp;#x679C;&amp;#x3002;&amp;#x73B0;&amp;#x5728;&amp;#x770B;&amp;#x6765;&amp;#xFF0C;&amp;#x6548;&amp;#x679C;&amp;#x8FD8;&amp;#x4E0D;&amp;#x9519;&amp;#xFF0C;&lt;strong&gt;&amp;#x201C;RSS&amp;#x201D;&amp;#x548C;&amp;#x201D;High&amp;#x201D;&lt;/strong&gt;&amp;#x5E76;&amp;#x6392;&amp;#x5C55;&amp;#x793A;&amp;#xFF0C;&amp;#x4F4E;&amp;#x8C03;&amp;#x53C8;&amp;#x4E0D;&amp;#x5931;&amp;#x6D3B;&amp;#x8DC3;&amp;#x3002;&lt;/p&gt;
-&lt;h2 id=&quot;&amp;#x6548;&amp;#x679C;&quot;&gt;&lt;a href=&quot;#&amp;#x6548;&amp;#x679C;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x6548;&amp;#x679C;&quot;&gt;&lt;/a&gt;&amp;#x6548;&amp;#x679C;&lt;/h2&gt;&lt;center&gt;&lt;br&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTY0ODY1Nzk0MA==/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;680&quot; height=&quot;600&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;br&gt;&lt;/center&gt;
+&lt;h2 id=&quot;&amp;#x6548;&amp;#x679C;&quot;&gt;&lt;a href=&quot;#&amp;#x6548;&amp;#x679C;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x6548;&amp;#x679C;&quot;&gt;&lt;/a&gt;&amp;#x6548;&amp;#x679C;&lt;/h2&gt;&lt;center&gt;&lt;br&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTY0ODY1Nzk0MA==/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;580&quot; height=&quot;500&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;br&gt;&lt;/center&gt;
     
     </summary>
     
@@ -410,9 +410,9 @@
     
       <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="Chrome" scheme="http://www.iamlj.com/tags/Chrome/"/>
-    
       <category term="WakaTime" scheme="http://www.iamlj.com/tags/WakaTime/"/>
+    
+      <category term="Chrome" scheme="http://www.iamlj.com/tags/Chrome/"/>
     
       <category term="时间统计" scheme="http://www.iamlj.com/tags/%E6%97%B6%E9%97%B4%E7%BB%9F%E8%AE%A1/"/>
     
@@ -1498,9 +1498,9 @@ Ctrl+Alt+7 -&gt; LICEcap(Run/Activate/Minimize)
     
       <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="Momentum" scheme="http://www.iamlj.com/tags/Momentum/"/>
-    
       <category term="Chrome" scheme="http://www.iamlj.com/tags/Chrome/"/>
+    
+      <category term="Momentum" scheme="http://www.iamlj.com/tags/Momentum/"/>
     
       <category term="壁纸" scheme="http://www.iamlj.com/tags/%E5%A3%81%E7%BA%B8/"/>
     
