@@ -145,6 +145,34 @@
 
     
   <url>
+    <loc>http://www.iamlj.com/2015/10/use-the-windows-batch-command-batch-to-convert-the-string-case/</loc>
+    <lastmod>2016-08-06T06:35:01.203Z</lastmod>
+    <data>
+        <display>
+        <title>使用Windows Bat批处理命令转换字符串大小写</title>
+        <pubTime>2015-10-05T14:28:12.000Z</pubTime>
+        
+        <tag>Windows</tag>
+         
+        <tag>AutoHotkey</tag>
+         
+        <tag>大小写转换</tag>
+         
+        <tag>Cmd</tag>
+         
+        <tag>批处理</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.iamlj.com/2015/10/use-the-windows-batch-command-batch-to-replace-file-name/</loc>
     <lastmod>2016-08-06T06:35:01.203Z</lastmod>
     <data>
@@ -163,34 +191,6 @@
         <tag>截图改名</tag>
          
         <tag>替换文件名</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.iamlj.com/2015/10/use-the-windows-batch-command-batch-to-convert-the-string-case/</loc>
-    <lastmod>2016-08-06T06:35:01.203Z</lastmod>
-    <data>
-        <display>
-        <title>使用Windows Bat批处理命令转换字符串大小写</title>
-        <pubTime>2015-10-05T14:28:12.000Z</pubTime>
-        
-        <tag>Windows</tag>
-         
-        <tag>AutoHotkey</tag>
-         
-        <tag>大小写转换</tag>
-         
-        <tag>Cmd</tag>
-         
-        <tag>批处理</tag>
          
          
            
@@ -279,6 +279,28 @@
 
     
   <url>
+    <loc>http://www.iamlj.com/2015/08/a-pure-and-fresh-guitar-song/</loc>
+    <lastmod>2016-08-06T06:35:01.190Z</lastmod>
+    <data>
+        <display>
+        <title>不知名 - 一首沁人心脾的吉他曲</title>
+        <pubTime>2015-08-20T15:10:47.000Z</pubTime>
+        
+        <tag>Music</tag>
+         
+        <tag>沁人心脾</tag>
+         
+         
+           
+             
+              <breadCrumb title="Life" url="http://www.iamlj.com/categories/Life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.iamlj.com/2016/07/add-auto-backup-function-for-hexo/</loc>
     <lastmod>2016-08-06T06:35:01.190Z</lastmod>
     <data>
@@ -296,28 +318,6 @@
            
              
               <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.iamlj.com/2015/08/a-pure-and-fresh-guitar-song/</loc>
-    <lastmod>2016-08-06T06:35:01.190Z</lastmod>
-    <data>
-        <display>
-        <title>不知名 - 一首沁人心脾的吉他曲</title>
-        <pubTime>2015-08-20T15:10:47.000Z</pubTime>
-        
-        <tag>Music</tag>
-         
-        <tag>沁人心脾</tag>
-         
-         
-           
-             
-              <breadCrumb title="Life" url="http://www.iamlj.com/categories/Life/"/>
           
         </display>
     </data>

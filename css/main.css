@@ -631,8 +631,8 @@ pre .javascript .function {
 @media (min-width: 992px) {
   .full-image.full-image.full-image {
     max-width: none;
-    width: 126%;
-    margin: 0 -13%;
+    width: 110%;
+    margin: 0 -5%;
   }
 }
 .blockquote-center,
@@ -1549,7 +1549,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c330ff;
+  background: #628f57;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2132,8 +2132,8 @@ body {
 @media (min-width: 992px) {
   .full-image.full-image.full-image {
     max-width: none;
-    width: 118%;
-    margin: 0 -9%;
+    width: 110%;
+    margin: 0 -5%;
   }
 }
 .header {
