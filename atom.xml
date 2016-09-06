@@ -1829,9 +1829,9 @@ f.close
     
       <category term="影评" scheme="http://www.iamlj.com/tags/%E5%BD%B1%E8%AF%84/"/>
     
-      <category term="童话故事" scheme="http://www.iamlj.com/tags/%E7%AB%A5%E8%AF%9D%E6%95%85%E4%BA%8B/"/>
-    
       <category term="动漫" scheme="http://www.iamlj.com/tags/%E5%8A%A8%E6%BC%AB/"/>
+    
+      <category term="童话故事" scheme="http://www.iamlj.com/tags/%E7%AB%A5%E8%AF%9D%E6%95%85%E4%BA%8B/"/>
     
       <category term="煎饼侠" scheme="http://www.iamlj.com/tags/%E7%85%8E%E9%A5%BC%E4%BE%A0/"/>
     
