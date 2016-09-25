@@ -72,7 +72,7 @@
 <meta property="og:site_name" content="Jing's Blog">
 <meta property="og:description" content="Bootstrap&amp;#x57FA;&amp;#x7840;&amp;#x7684;&amp;#x4E24;&amp;#x5217;&amp;#x3001;&amp;#x4E00;&amp;#x5217;&amp;#x3001;&amp;#x5C45;&amp;#x4E2D;&amp;#x6309;&amp;#x94AE;&amp;#x7684;&amp;#x5E03;&amp;#x5C40;&amp;#x3002;&amp;#x53EF;&amp;#x4EE5;&amp;#x81EA;&amp;#x884C;&amp;#x6269;&amp;#x5C55;&amp;#xFF0C">
 <meta property="og:image" content="http://www.iamlj.com/2015/12/boostrap-form/70738442.jpg">
-<meta property="og:updated_time" content="2016-07-19T12:26:01.378Z">
+<meta property="og:updated_time" content="2016-09-25T05:21:47.434Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Boostrap Form表单一列两列布局">
 <meta name="twitter:description" content="Bootstrap&amp;#x57FA;&amp;#x7840;&amp;#x7684;&amp;#x4E24;&amp;#x5217;&amp;#x3001;&amp;#x4E00;&amp;#x5217;&amp;#x3001;&amp;#x5C45;&amp;#x4E2D;&amp;#x6309;&amp;#x94AE;&amp;#x7684;&amp;#x5E03;&amp;#x5C40;&amp;#x3002;&amp;#x53EF;&amp;#x4EE5;&amp;#x81EA;&amp;#x884C;&amp;#x6269;&amp;#x5C55;&amp;#xFF0C">
@@ -353,74 +353,67 @@
 <h2 id="&#x4EE3;&#x7801;"><a href="#&#x4EE3;&#x7801;" class="headerlink" title="&#x4EE3;&#x7801;"></a>&#x4EE3;&#x7801;</h2><pre><code class="html"><span class="tag">&lt;<span class="name">html</span>&gt;</span>
 <span class="tag">&lt;<span class="name">head</span>&gt;</span>
     <span class="tag">&lt;<span class="name">title</span>&gt;</span>Bootstrap Form Demo<span class="tag">&lt;/<span class="name">title</span>&gt;</span>
-    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html; charset=utf-8&quot;</span>/&gt;</span>
-    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span>&gt;</span>
-    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span>
-    <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;./css/bootstrap.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html; charset=utf-8&quot;</span> /&gt;</span>
+  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span>&gt;</span> 
+  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span>
+  <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span>
 <span class="tag">&lt;/<span class="name">head</span>&gt;</span>
-<span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span>&gt;</span><span class="undefined">
-    #projectArea {
-        width: 90%;
-        margin-left: 5%;
-        height: 200px
-    }
 
-    #projectTitle {
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-
-    #progressStatus {
-        text-align: right;
-        margin-right: 1%;
-    }
-
-    .progress {
-        margin-bottom: 5px;
-    }
-
-    a, a:link, a:active, a:hover, a:visited {
-        text-decoration: none;
-    }
-
-    a:focus {
-        outline: none;
-    }
-</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span>
 <span class="tag">&lt;<span class="name">body</span>&gt;</span>
+  <span class="tag">&lt;<span class="name">form</span> <span class="attr">class</span>=<span class="string">&quot;form-horizontal&quot;</span> <span class="attr">role</span>=<span class="string">&quot;form&quot;</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">legend</span>&gt;</span>&#x4E24;&#x5217;<span class="tag">&lt;/<span class="name">legend</span>&gt;</span>
 
-<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;projectArea&quot;</span> <span class="attr">class</span>=<span class="string">&quot;center&quot;</span>&gt;</span>
-    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;projectItem&quot;</span>&gt;</span>
-        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;projectTitle&quot;</span>&gt;</span>
-            <span class="tag">&lt;<span class="name">a</span> <span class="attr">style</span>=<span class="string">&quot;color: black;&quot;</span>
-               <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>&#x57FA;&#x4E8E;&#x6570;&#x636E;&#x6316;&#x6398;&#x7684;&#x4FE1;&#x606F;&#x91C7;&#x96C6;&#x57FA;&#x4E8E;&#x6570;&#x636E;&#x6316;&#x6398;&#x7684;&#x4FE1;&#x606F;&#x91C7;&#x96C6;&#x57FA;&#x4E8E;&#x6570;&#x636E;&#x6316;&#x57FA;&#x4E8E;&#x6570;&#x636E;&#x6316;&#x6398;&#x7684;&#x4FE1;&#x606F;&#x91C7;&#x96C6;&#x57FA;&#x4E8E;&#x6570;&#x636E;&#x6316;&#x6398;&#x7684;&#x4FE1;&#x606F;&#x91C7;&#x96C6;&#x57FA;&#x4E8E;&#x6570;&#x636E;&#x6316;
-            <span class="tag">&lt;/<span class="name">a</span>&gt;</span>
-        <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">fieldset</span>&gt;</span>
+      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;form-group&quot;</span>&gt;</span>
+        <span class="tag">&lt;<span class="name">label</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-2 control-label&quot;</span> <span class="attr">for</span>=<span class="string">&quot;ds_host&quot;</span>&gt;</span>&#x4E3B;&#x673A;&#x540D;<span class="tag">&lt;/<span class="name">label</span>&gt;</span>
+        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-3&quot;</span>&gt;</span>
+         <span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">&quot;form-control&quot;</span> <span class="attr">id</span>=<span class="string">&quot;ds_host&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;192.168.1.161&quot;</span>/&gt;</span>
+       <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+       <span class="tag">&lt;<span class="name">label</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-2 control-label&quot;</span> <span class="attr">for</span>=<span class="string">&quot;ds_name&quot;</span>&gt;</span>&#x6570;&#x636E;&#x5E93;&#x540D;<span class="tag">&lt;/<span class="name">label</span>&gt;</span>
+       <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-3&quot;</span>&gt;</span>
+         <span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">&quot;form-control&quot;</span> <span class="attr">id</span>=<span class="string">&quot;ds_name&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;msh&quot;</span>/&gt;</span>
+       <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+     <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
 
-        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;progress&quot;</span> <span class="attr">class</span>=<span class="string">&quot;inline progress&quot;</span>&gt;</span>
-            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;progressBar&quot;</span> <span class="attr">class</span>=<span class="string">&quot;progress-bar progress-bar-success&quot;</span> <span class="attr">role</span>=<span class="string">&quot;progressbar&quot;</span> <span class="attr">aria-valuenow</span>=<span class="string">&quot;20&quot;</span>
-                 <span class="attr">aria-valuemin</span>=<span class="string">&quot;0&quot;</span> <span class="attr">aria-valuemax</span>=<span class="string">&quot;100&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width: 45%&quot;</span>&gt;</span>45
-            <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
-            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;progressStatus&quot;</span>&gt;</span>&#x65B0;&#x5EFA;<span class="tag">&lt;/<span class="name">div</span>&gt;</span>
-        <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
-    <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+     <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;form-group&quot;</span>&gt;</span>
+      <span class="tag">&lt;<span class="name">label</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-2 control-label&quot;</span> <span class="attr">for</span>=<span class="string">&quot;ds_username&quot;</span>&gt;</span>&#x7528;&#x6237;&#x540D;<span class="tag">&lt;/<span class="name">label</span>&gt;</span>
+      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-3&quot;</span>&gt;</span>
+       <span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">&quot;form-control&quot;</span> <span class="attr">id</span>=<span class="string">&quot;ds_username&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;root&quot;</span>/&gt;</span>
+     <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+     <span class="tag">&lt;<span class="name">label</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-2 control-label&quot;</span> <span class="attr">for</span>=<span class="string">&quot;ds_password&quot;</span>&gt;</span>&#x5BC6;&#x7801;<span class="tag">&lt;/<span class="name">label</span>&gt;</span>
+     <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-3&quot;</span>&gt;</span>
+       <span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">&quot;form-control&quot;</span> <span class="attr">id</span>=<span class="string">&quot;ds_password&quot;</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;123456&quot;</span>/&gt;</span>
+     <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+   <span class="tag">&lt;/<span class="name">div</span>&gt;</span>   
+ <span class="tag">&lt;/<span class="name">fieldset</span>&gt;</span>   
 
-    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;projectItem&quot;</span>&gt;</span>
-        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;projectTitle&quot;</span>&gt;</span>
-            <span class="tag">&lt;<span class="name">a</span> <span class="attr">style</span>=<span class="string">&quot;color: black;&quot;</span>
-               <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>&#x8FD9;&#x662F;&#x4E2A;&#x6D4B;&#x8BD5;
-            <span class="tag">&lt;/<span class="name">a</span>&gt;</span>
-        <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
 
-        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;progress&quot;</span> <span class="attr">class</span>=<span class="string">&quot;inline progress&quot;</span>&gt;</span>
-            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;progressBar&quot;</span> <span class="attr">class</span>=<span class="string">&quot;progress-bar progress-bar-success&quot;</span> <span class="attr">role</span>=<span class="string">&quot;progressbar&quot;</span> <span class="attr">aria-valuenow</span>=<span class="string">&quot;20&quot;</span>
-                 <span class="attr">aria-valuemin</span>=<span class="string">&quot;0&quot;</span> <span class="attr">aria-valuemax</span>=<span class="string">&quot;100&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width: 95%&quot;</span>&gt;</span>95
-            <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
-            <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;progressStatus&quot;</span>&gt;</span>&#x5904;&#x7406;&#x4E2D;<span class="tag">&lt;/<span class="name">div</span>&gt;</span>
-        <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
-    <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
-<span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+ <span class="tag">&lt;<span class="name">legend</span>&gt;</span>&#x4E00;&#x5217;<span class="tag">&lt;/<span class="name">legend</span>&gt;</span>
+ <span class="tag">&lt;<span class="name">fieldset</span>&gt;</span>
+   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;form-group&quot;</span>&gt;</span>
+     <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;disabledSelect&quot;</span>  <span class="attr">class</span>=<span class="string">&quot;col-sm-2 control-label&quot;</span>&gt;</span>select<span class="tag">&lt;/<span class="name">label</span>&gt;</span>
+     <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-8&quot;</span>&gt;</span>
+      <span class="tag">&lt;<span class="name">select</span> <span class="attr">id</span>=<span class="string">&quot;disabledSelect&quot;</span> <span class="attr">class</span>=<span class="string">&quot;form-control&quot;</span>&gt;</span>
+       <span class="tag">&lt;<span class="name">option</span>&gt;</span>&#x7981;&#x6B62;&#x9009;&#x62E9;<span class="tag">&lt;/<span class="name">option</span>&gt;</span>
+       <span class="tag">&lt;<span class="name">option</span>&gt;</span>&#x7981;&#x6B62;&#x9009;&#x62E9;<span class="tag">&lt;/<span class="name">option</span>&gt;</span>
+     <span class="tag">&lt;/<span class="name">select</span>&gt;</span>
+   <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+ <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">fieldset</span>&gt;</span>
+
+<span class="tag">&lt;<span class="name">fieldset</span>&gt;</span>
+ <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;form-group&quot;</span>&gt;</span>
+   <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;disabledSelect&quot;</span>  <span class="attr">class</span>=<span class="string">&quot;col-sm-2 control-label&quot;</span>&gt;</span>textarea<span class="tag">&lt;/<span class="name">label</span>&gt;</span>
+   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;col-sm-8&quot;</span>&gt;</span>
+     <span class="tag">&lt;<span class="name">textarea</span> <span class="attr">class</span>=<span class="string">&quot;form-control&quot;</span> <span class="attr">rows</span>=<span class="string">&quot;3&quot;</span> &gt;</span><span class="tag">&lt;/<span class="name">textarea</span>&gt;</span>
+   <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+ <span class="tag">&lt;/<span class="name">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">fieldset</span>&gt;</span>
+
+<span class="tag">&lt;<span class="name">center</span>&gt;</span>
+  <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">class</span>=<span class="string">&quot;btn btn-primary&quot;</span>&gt;</span>&#x5C45;&#x4E2D;&#x6309;&#x94AE;<span class="tag">&lt;/<span class="name">button</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">center</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">form</span>&gt;</span>
 <span class="tag">&lt;/<span class="name">body</span>&gt;</span>
 <span class="tag">&lt;/<span class="name">html</span>&gt;</span>
 </code></pre>
