@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.iamlj.com/"/>
-  <updated>2016-10-07T04:08:27.753Z</updated>
+  <updated>2016-10-07T04:26:55.509Z</updated>
   <id>http://www.iamlj.com/</id>
   
   <author>
@@ -20,16 +20,16 @@
     <link href="http://www.iamlj.com/2016/10/swift-3-migration-pitfalls/"/>
     <id>http://www.iamlj.com/2016/10/swift-3-migration-pitfalls/</id>
     <published>2016-10-07T02:28:12.000Z</published>
-    <updated>2016-10-07T04:08:27.753Z</updated>
+    <updated>2016-10-07T04:26:55.509Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>&#x672C;&#x6587;&#x8BB2;&#x8FF0;&#x4E86;&#x4F5C;&#x8005; Emil Loer &#x79FB;&#x690D; Swift &#x9879;&#x76EE;&#x5230;&#x6700;&#x65B0;&#x7248;&#x672C; Swift 3 &#x7684;&#x7ECF;&#x5386;&#xFF0C;&#x6D89;&#x53CA;&#x4FEE;&#x6539;&#x7684;&#x65B9;&#x9762;&#x5305;&#x62EC; Range&#x3001;&#x5143;&#x7EC4;&#x8F6C;&#x6362;&#x3001;&#x7ED8;&#x56FE;&#x7B49;&#x3002;&#x603B;&#x4F53;&#x96BE;&#x5EA6;&#x4E0D;&#x9AD8;&#xFF0C;&#x5BF9;&#x4E8E;&#x9700;&#x8981;&#x79FB;&#x690D; Swift &#x9879;&#x76EE;&#x5230;&#x65B0;&#x7248;&#x672C;&#x7684;&#x670B;&#x53CB;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x53C2;&#x8003;&#x4EF7;&#x503C;&#x3002;</p>
 </blockquote>
-<p>&#x4E07;&#x5C81;&#xFF01;Swift 3 &#x53D1;&#x5E03;&#x4E86;&#xFF0C;&#x8BA9;&#x6211;&#x4EEC;&#x4E00;&#x8D77;&#x6765;&#x79FB;&#x690D;&#x9879;&#x76EE;&#x5427;&#xFF01;&#x5728;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x4E2D;&#xFF0C;&#x6211;&#x4F1A;&#x4F60;&#x5206;&#x4EAB;&#x6211;&#x7684;&#x9879;&#x76EE;&#x8FC1;&#x79FB;&#x5230; Swift 3&#x7684;&#x7ECF;&#x5386;&#xFF0C;&#x90A3;&#x662F;&#x4E00;&#x4E2A; 2 &#x4E07;&#x884C;&#x7684; Swift &#x9879;&#x76EE;&#x3002;&#x5982;&#x679C;&#x4F60;&#x5BF9;&#x6B64;&#x611F;&#x5230;&#x597D;&#x5947;&#xFF0C;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x5176;&#x5B9E;&#x662F;&#x6211;&#x5B9E;&#x73B0;&#x7684; Cassowary &#x7EBF;&#x6027;&#x7EA6;&#x675F;&#x6C42;&#x89E3;&#x7B97;&#x6CD5;&#xFF0C;&#x8BE5;&#x7B97;&#x6CD5;&#x6700;&#x8457;&#x540D;&#x4E4B;&#x5904;&#x5728;&#x4E8E;&#x5176;&#x901A;&#x5E38;&#x88AB;&#x7528;&#x4E8E;&#x9875;&#x9762;&#x7684;&#x81EA;&#x52A8;&#x5E03;&#x5C40;&#x3002;&#x4F46;&#x6211;&#x5C06;&#x5B83;&#x7528;&#x5728;&#x4E86;&#x4E00;&#x4E9B;&#x5B8C;&#x5168;&#x4E0D;&#x540C;&#x7684;&#x4E8B;&#x60C5;&#x4E0A;&#xFF0C;&#x6211;&#x5C06;&#x4F1A;&#x5728;&#x4EE5;&#x540E;&#x7684;&#x6587;&#x7AE0;&#x4E2D;&#x8BF4;&#x660E;&#x3002;</p>
+<p>&#x4E07;&#x5C81;&#xFF01;Swift 3 &#x53D1;&#x5E03;&#x4E86;&#xFF0C;&#x8BA9;&#x6211;&#x4EEC;&#x4E00;&#x8D77;&#x6765;&#x79FB;&#x690D;&#x9879;&#x76EE;&#x5427;&#xFF01;&#x5728;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x4E2D;&#xFF0C;&#x6211;&#x4F1A;&#x548C;&#x4F60;&#x5206;&#x4EAB;&#x6211;&#x7684;&#x9879;&#x76EE;&#x8FC1;&#x79FB;&#x5230; Swift 3 &#x7684;&#x7ECF;&#x5386;&#xFF0C;&#x90A3;&#x662F;&#x4E00;&#x4E2A; 2 &#x4E07;&#x884C;&#x7684; Swift &#x9879;&#x76EE;&#x3002;&#x5982;&#x679C;&#x4F60;&#x5BF9;&#x6B64;&#x611F;&#x5230;&#x597D;&#x5947;&#xFF0C;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x5176;&#x5B9E;&#x662F;&#x6211;&#x5B9E;&#x73B0;&#x7684; Cassowary &#x7EBF;&#x6027;&#x7EA6;&#x675F;&#x6C42;&#x89E3;&#x7B97;&#x6CD5;&#xFF0C;&#x8BE5;&#x7B97;&#x6CD5;&#x6700;&#x8457;&#x540D;&#x4E4B;&#x5904;&#x5728;&#x4E8E;&#x5176;&#x901A;&#x5E38;&#x88AB;&#x7528;&#x4E8E;&#x9875;&#x9762;&#x7684;&#x81EA;&#x52A8;&#x5E03;&#x5C40;&#x3002;&#x4F46;&#x6211;&#x5C06;&#x5B83;&#x7528;&#x5728;&#x4E86;&#x4E00;&#x4E9B;&#x5B8C;&#x5168;&#x4E0D;&#x540C;&#x7684;&#x4E8B;&#x60C5;&#x4E0A;&#xFF0C;&#x6211;&#x5C06;&#x4F1A;&#x5728;&#x4EE5;&#x540E;&#x7684;&#x6587;&#x7AE0;&#x4E2D;&#x8BF4;&#x660E;&#x3002;</p>
 <a id="more"></a> 
 <h3 id="Swift-&#x79FB;&#x690D;&#x5668;"><a href="#Swift-&#x79FB;&#x690D;&#x5668;" class="headerlink" title="Swift &#x79FB;&#x690D;&#x5668;"></a>Swift &#x79FB;&#x690D;&#x5668;</h3><p>&#x7B2C;&#x4E00;&#x6B65;&#x662F;&#x4ECE; Xcode &#x4E2D;&#x8FD0;&#x884C; Swift &#x79FB;&#x690D;&#x5668;&#x6765;&#x5BF9;&#x6211;&#x7684;&#x9879;&#x76EE;&#x8FDB;&#x884C;&#x8F6C;&#x6362;&#x3002;&#x79FB;&#x690D;&#x5668;&#x5E2E;&#x52A9;&#x6211;&#x5B9A;&#x4F4D;&#x4E86;&#x5927;&#x90E8;&#x5206;&#x5FC5;&#x987B;&#x4FEE;&#x6539;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x8FD9;&#x8282;&#x7701;&#x4E86;&#x6211;&#x5F88;&#x591A;&#x7684;&#x5DE5;&#x4F5C;&#x3002;&#x800C;&#x6709;&#x51E0;&#x4EF6;&#x4E8B;&#x60C5;&#x6211;&#x4E0D;&#x5F97;&#x4E0D;&#x5728;&#x8FD9;&#x4E4B;&#x540E;&#x505A;&#x51FA;&#x4FEE;&#x6539;&#xFF0C;&#x867D;&#x7136;&#x8FD9;&#x5E76;&#x4E0D;&#x662F;&#x5F88;&#x9EBB;&#x70E6;&#x3002;&#x5728;&#x6211;&#x5FC5;&#x987B;&#x91CD;&#x5199;&#x7684;&#x529F;&#x80FD;&#x4E2D;&#xFF0C;&#x6700;&#x6709;&#x8DA3;&#x7684;&#x662F;&#x6743;&#x9650;&#x53D8;&#x66F4;&#xFF08;&#x65B0;&#x7684;&#x6743;&#x9650;&#x6A21;&#x578B;&#x9ED8;&#x8BA4;&#x4E3A;&#x4F7F;&#x7C7B; <code>public</code> &#x548C;&#x65B9;&#x6CD5; <code>open</code>&#xFF0C;&#x4F46;&#x6211;&#x60F3;&#x5728;&#x5927;&#x591A;&#x6570;&#x60C5;&#x51B5;&#x4E0B;&#x9650;&#x5236;&#x8FD9;&#x4E00;&#x70B9;&#xFF09;&#x548C;&#x4E8C;&#x8FDB;&#x5236;&#x641C;&#x7D22;&#x529F;&#x80FD;&#xFF0C;&#x8D77;&#x56E0;&#x662F;&#x6536;&#x96C6;&#x7D22;&#x5F15;&#x64CD;&#x4F5C;&#x7684;&#x5DE5;&#x4F5C;&#x65B9;&#x5F0F;&#x7684;&#x53D8;&#x66F4;&#x3002;</p>
 <h3 id="&#x4EC0;&#x4E48;&#x4E5F;&#x6CA1;&#x6709;&#x53D8;"><a href="#&#x4EC0;&#x4E48;&#x4E5F;&#x6CA1;&#x6709;&#x53D8;" class="headerlink" title="&#x4EC0;&#x4E48;&#x4E5F;&#x6CA1;&#x6709;&#x53D8;"></a>&#x4EC0;&#x4E48;&#x4E5F;&#x6CA1;&#x6709;&#x53D8;</h3><p>&#x6839;&#x636E;&#x60EF;&#x4F8B;&#x6765;&#x770B;&#xFF0C;&#x6BCF;&#x6B21; Swift &#x53D1;&#x5E03;&#x7684;&#x65B0;&#x7248;&#x672C;&#xFF0C;&#x6211;&#x5C1D;&#x8BD5;&#x7684;&#x7B2C;&#x4E00;&#x6B21;&#x7F16;&#x8BD1;&#x90FD;&#x4F1A;&#x62A5;&#x9519;&#x3002;&#x5728;&#x62A5;&#x9519;&#x4E4B;&#x524D;&#x7F16;&#x8BD1;&#x5668;&#x65E5;&#x5FD7;&#x4F1A;&#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x9519;&#x8BEF;&#x5217;&#x8868;&#xFF0C;&#x4E4B;&#x540E;&#x6211;&#x4F1A;&#x6839;&#x636E;&#x5217;&#x8868;&#x89E3;&#x51B3;&#x9519;&#x8BEF;&#xFF0C;&#x7136;&#x540E;&#x4EE3;&#x7801;&#x5C31;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x8FD0;&#x884C;&#x4E86;&#x3002;</p>
-<p>&#x6211;&#x5FC5;&#x987B;&#x4FEE;&#x590D;&#x90A3;&#x4E9B;&#x672A;&#x88AB;&#x79FB;&#x690D;&#x5668;&#x6355;&#x6349;&#x5230;&#x7684;&#xFF0C;&#x6D89;&#x53CA;&#x4E24;&#x4E2A;&#x8BED;&#x8A00;&#x4E4B;&#x95F4;&#x53D8;&#x5316;&#x6240;&#x9020;&#x6210;&#x7684;&#x7F16;&#x8BD1;&#x9519;&#x8BEF;&#xFF0C;&#x5728;&#x4E0B;&#x9762;&#x4E24;&#x8282;&#x6211;&#x4F1A;&#x9AD8;&#x4EAE;&#x6807;&#x6CE8;&#x8FD9;&#x4E9B;&#x4EE3;&#x7801;&#x3002;</p>
+<p>&#x6211;&#x5FC5;&#x987B;&#x4FEE;&#x590D;&#x90A3;&#x4E9B;&#x672A;&#x88AB;&#x79FB;&#x690D;&#x5668;&#x5B9A;&#x4F4D;&#x5230;&#x7684;&#xFF0C;&#x6D89;&#x53CA;&#x4E24;&#x4E2A;&#x8BED;&#x8A00;&#x4E4B;&#x95F4;&#x53D8;&#x5316;&#x6240;&#x9020;&#x6210;&#x7684;&#x7F16;&#x8BD1;&#x9519;&#x8BEF;&#xFF0C;&#x5728;&#x4E0B;&#x9762;&#x4E24;&#x8282;&#x6211;&#x4F1A;&#x9AD8;&#x4EAE;&#x6807;&#x6CE8;&#x8FD9;&#x4E9B;&#x4EE3;&#x7801;&#x3002;</p>
 <h3 id="&#x65B0;&#x7684;-Range"><a href="#&#x65B0;&#x7684;-Range" class="headerlink" title="&#x65B0;&#x7684; Range"></a>&#x65B0;&#x7684; Range</h3><p>&#x7B2C;&#x4E00;&#x7C7B;&#x5FC5;&#x987B;&#x89E3;&#x51B3;&#x7684;&#x9519;&#x8BEF;&#x6E90;&#x4E8E;&#x65B0;&#x7684; <code>Range</code> &#x7ED3;&#x6784;&#x6240;&#x5E26;&#x6765;&#x7684;&#x8BED;&#x4E49;&#x53D8;&#x66F4;&#x3002;&#x73B0;&#x5728; Swift 3 &#x7684; ranges &#x662F;&#x7531; 4 &#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x7ED3;&#x6784;&#x4F53;&#x6765;&#x91CD;&#x65B0;&#x4EE3;&#x8868;&#xFF0C;&#x53EF;&#x6570;/&#x4E0D;&#x53EF;&#x6570;&#x7684;&#x8303;&#x56F4;&#x548C;&#x5F00;&#x653E;&#x5F0F;/&#x5C01;&#x95ED;&#x5F0F;&#x7684;&#x8303;&#x56F4;&#x3002;&#x800C;&#x5728; Swift 2 &#x4E2D;&#xFF0C;&#x5F00;&#x653E;&#x5F0F;&#x548C;&#x5C01;&#x95ED;&#x5F0F;&#x8303;&#x56F4;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x7ED3;&#x6784;&#x4F53;&#xFF0C;&#x6240;&#x4EE5;&#x5982;&#x679C;&#x4F60;&#x6709;&#x4E00;&#x4E9B;&#x4EE3;&#x7801;&#x540C;&#x65F6;&#x4F7F;&#x7528;&#x4E86;&#x8FD9;&#x4E24;&#x79CD;&#x8303;&#x56F4;&#xFF0C;&#x90A3;&#x4E48;&#x4F60;&#x9700;&#x8981;&#x505A;&#x4E00;&#x4E9B;&#x4FEE;&#x6539;&#x5DE5;&#x4F5C;&#x3002;</p>
 <p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;&#x6709;&#x6548;&#x7684; Swift 2 &#x4F8B;&#x5B50;&#xFF1A;</p>
 <pre><code>func doSomething(with range: Range) {
@@ -75,11 +75,11 @@ for tuple: Tuple in dict {
 <hr>
 <h3 id="&#x8BD1;&#x8005;&#x8BDD;"><a href="#&#x8BD1;&#x8005;&#x8BDD;" class="headerlink" title="&#x8BD1;&#x8005;&#x8BDD;"></a>&#x8BD1;&#x8005;&#x8BDD;</h3><p>&#x6211;&#x52A0;&#x5165;<a href="https://github.com/xitu/gold-miner" target="_blank" rel="external">&#x6398;&#x91D1;&#x7FFB;&#x8BD1;&#x8BA1;&#x5212;</a>&#x540E;&#xFF0C;&#x7B2C;&#x4E00;&#x6B21;&#x5728;&#x6398;&#x91D1;&#x7FFB;&#x8BD1;&#x6587;&#x7AE0;&#x3002;&#x56E0;&#x4E3A;&#x5BF9;&#x7FFB;&#x8BD1;&#x6D41;&#x7A0B;&#x6BD4;&#x8F83;&#x964C;&#x751F;&#xFF0C;&#x52A0;&#x4E4B;&#x7FFB;&#x8BD1;&#x7ECF;&#x9A8C;&#x4E0D;&#x8DB3;&#xFF0C;&#x5BFC;&#x81F4;&#x6574;&#x4E2A;&#x7FFB;&#x8BD1;&#x5468;&#x671F;&#x8F83;&#x957F;&#x3002;&#x611F;&#x8C22;&#x7BA1;&#x7406;&#x5458;&#x6839;&#x53F7;&#x4E09;&#x548C;&#x4E24;&#x4F4D;&#x6821;&#x5BF9;&#x8005; Danny1451 &#x548C; Tina92 &#xFF0C;&#x5927;&#x5BB6;&#x90FD;&#x975E;&#x5E38;&#x8BA4;&#x771F;&#xFF0C;&#x7FFB;&#x8BD1;&#x793E;&#x533A;&#x7684;&#x6C1B;&#x56F4;&#x4E5F;&#x5F88;&#x8D5E;&#x3002;</p>
 <p>&#x5728;&#x6398;&#x91D1;<a href="https://github.com/xitu/gold-miner#&#x6398;&#x91D1;&#x7FFB;&#x8BD1;&#x8BA1;&#x5212;" target="_blank" rel="external"> README.md </a>&#x4E2D;&#x6709;&#x5177;&#x4F53;&#x7684;&#x9879;&#x76EE;&#x4ECB;&#x7ECD;&#xFF0C;&#x5728;<a href="https://github.com/xitu/gold-miner/issues" target="_blank" rel="external"> issues </a>&#x4E2D;&#x53EF;&#x4EE5;&#x7533;&#x8BF7;&#x6210;&#x4E3A;&#x8BD1;&#x8005;&#x3002;</p>
-<p>&#x603B;&#x7684;&#x6765;&#x8BF4;&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x6B21;&#x5F88;&#x6109;&#x5FEB;&#x7684;&#x4F53;&#x9A8C;&#x3002;&#x63A8;&#x8350;&#x5927;&#x5BB6;&#x4E5F;&#x52A0;&#x5165;&#x5230;&#x7FFB;&#x8BD1;&#x5927;&#x519B;&#x4E2D;&#xFF0C;&#x5BF9;&#x4E8E;&#x4E2A;&#x4EBA;&#x6210;&#x957F;&#x975E;&#x5E38;&#x6709;&#x5E2E;&#x52A9;&#x3002;</p>
+<p>&#x603B;&#x7684;&#x6765;&#x8BF4;&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x6B21;&#x5F88;&#x6109;&#x5FEB;&#x7684;&#x4F53;&#x9A8C;&#x3002;&#x611F;&#x89C9;&#x8FD8;&#x6709;&#x5F88;&#x5927;&#x7684;&#x63D0;&#x5347;&#x5DE5;&#x5177;&#xFF0C;&#x7FFB;&#x8BD1;&#x5F97;&#x4E0D;&#x591F;&#x5927;&#x80C6;&#xFF0C;&#x8BD1;&#x6587;&#x8BFB;&#x8D77;&#x6765;&#x6709;&#x70B9;&#x7ED5;&#x3002;&#x63A8;&#x8350;&#x5927;&#x5BB6;&#x4E5F;&#x52A0;&#x5165;&#x5230;&#x7FFB;&#x8BD1;&#x5927;&#x519B;&#x4E2D;&#xFF0C;&#x5BF9;&#x4E8E;&#x4E2A;&#x4EBA;&#x6210;&#x957F;&#x975E;&#x5E38;&#x6709;&#x5E2E;&#x52A9;&#x3002;</p>
 <blockquote>
 <ul>
 <li>&#x539F;&#x6587;&#x5730;&#x5740;&#xFF1A;<a href="http://codelle.com/blog/2016/9/swift-3-migration-pitfalls/" target="_blank" rel="external">Swift 3 migration pitfalls</a></li>
-<li>&#x539F;&#x6587;&#x4F5C;&#x8005;&#xFF1A;<a href="http://codelle.com/contact/" target="_blank" rel="external"> Emil Loer</a></li>
+<li>&#x539F;&#x6587;&#x4F5C;&#x8005;&#xFF1A;<a href="http://codelle.com/contact/" target="_blank" rel="external">Emil Loer</a></li>
 <li>&#x8BD1;&#x6587;&#x51FA;&#x81EA;&#xFF1A;<a href="https://github.com/xitu/gold-miner" target="_blank" rel="external">&#x6398;&#x91D1;&#x7FFB;&#x8BD1;&#x8BA1;&#x5212;</a></li>
 <li>&#x8BD1;&#x8005;&#xFF1A;<a href="https://github.com/shliujing" target="_blank" rel="external">shliujing</a></li>
 <li>&#x6821;&#x5BF9;&#x8005;&#xFF1A;<a href="https://github.com/Danny1451" target="_blank" rel="external">Danny1451</a>, <a href="https://github.com/Tina92" target="_blank" rel="external">Tina92</a></li>
@@ -93,7 +93,7 @@ for tuple: Tuple in dict {
       &lt;blockquote&gt;
 &lt;p&gt;&amp;#x672C;&amp;#x6587;&amp;#x8BB2;&amp;#x8FF0;&amp;#x4E86;&amp;#x4F5C;&amp;#x8005; Emil Loer &amp;#x79FB;&amp;#x690D; Swift &amp;#x9879;&amp;#x76EE;&amp;#x5230;&amp;#x6700;&amp;#x65B0;&amp;#x7248;&amp;#x672C; Swift 3 &amp;#x7684;&amp;#x7ECF;&amp;#x5386;&amp;#xFF0C;&amp;#x6D89;&amp;#x53CA;&amp;#x4FEE;&amp;#x6539;&amp;#x7684;&amp;#x65B9;&amp;#x9762;&amp;#x5305;&amp;#x62EC; Range&amp;#x3001;&amp;#x5143;&amp;#x7EC4;&amp;#x8F6C;&amp;#x6362;&amp;#x3001;&amp;#x7ED8;&amp;#x56FE;&amp;#x7B49;&amp;#x3002;&amp;#x603B;&amp;#x4F53;&amp;#x96BE;&amp;#x5EA6;&amp;#x4E0D;&amp;#x9AD8;&amp;#xFF0C;&amp;#x5BF9;&amp;#x4E8E;&amp;#x9700;&amp;#x8981;&amp;#x79FB;&amp;#x690D; Swift &amp;#x9879;&amp;#x76EE;&amp;#x5230;&amp;#x65B0;&amp;#x7248;&amp;#x672C;&amp;#x7684;&amp;#x670B;&amp;#x53CB;&amp;#x6709;&amp;#x4E00;&amp;#x5B9A;&amp;#x7684;&amp;#x53C2;&amp;#x8003;&amp;#x4EF7;&amp;#x503C;&amp;#x3002;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;#x4E07;&amp;#x5C81;&amp;#xFF01;Swift 3 &amp;#x53D1;&amp;#x5E03;&amp;#x4E86;&amp;#xFF0C;&amp;#x8BA9;&amp;#x6211;&amp;#x4EEC;&amp;#x4E00;&amp;#x8D77;&amp;#x6765;&amp;#x79FB;&amp;#x690D;&amp;#x9879;&amp;#x76EE;&amp;#x5427;&amp;#xFF01;&amp;#x5728;&amp;#x8FD9;&amp;#x7BC7;&amp;#x6587;&amp;#x7AE0;&amp;#x4E2D;&amp;#xFF0C;&amp;#x6211;&amp;#x4F1A;&amp;#x4F60;&amp;#x5206;&amp;#x4EAB;&amp;#x6211;&amp;#x7684;&amp;#x9879;&amp;#x76EE;&amp;#x8FC1;&amp;#x79FB;&amp;#x5230; Swift 3&amp;#x7684;&amp;#x7ECF;&amp;#x5386;&amp;#xFF0C;&amp;#x90A3;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A; 2 &amp;#x4E07;&amp;#x884C;&amp;#x7684; Swift &amp;#x9879;&amp;#x76EE;&amp;#x3002;&amp;#x5982;&amp;#x679C;&amp;#x4F60;&amp;#x5BF9;&amp;#x6B64;&amp;#x611F;&amp;#x5230;&amp;#x597D;&amp;#x5947;&amp;#xFF0C;&amp;#x8FD9;&amp;#x4E2A;&amp;#x9879;&amp;#x76EE;&amp;#x5176;&amp;#x5B9E;&amp;#x662F;&amp;#x6211;&amp;#x5B9E;&amp;#x73B0;&amp;#x7684; Cassowary &amp;#x7EBF;&amp;#x6027;&amp;#x7EA6;&amp;#x675F;&amp;#x6C42;&amp;#x89E3;&amp;#x7B97;&amp;#x6CD5;&amp;#xFF0C;&amp;#x8BE5;&amp;#x7B97;&amp;#x6CD5;&amp;#x6700;&amp;#x8457;&amp;#x540D;&amp;#x4E4B;&amp;#x5904;&amp;#x5728;&amp;#x4E8E;&amp;#x5176;&amp;#x901A;&amp;#x5E38;&amp;#x88AB;&amp;#x7528;&amp;#x4E8E;&amp;#x9875;&amp;#x9762;&amp;#x7684;&amp;#x81EA;&amp;#x52A8;&amp;#x5E03;&amp;#x5C40;&amp;#x3002;&amp;#x4F46;&amp;#x6211;&amp;#x5C06;&amp;#x5B83;&amp;#x7528;&amp;#x5728;&amp;#x4E86;&amp;#x4E00;&amp;#x4E9B;&amp;#x5B8C;&amp;#x5168;&amp;#x4E0D;&amp;#x540C;&amp;#x7684;&amp;#x4E8B;&amp;#x60C5;&amp;#x4E0A;&amp;#xFF0C;&amp;#x6211;&amp;#x5C06;&amp;#x4F1A;&amp;#x5728;&amp;#x4EE5;&amp;#x540E;&amp;#x7684;&amp;#x6587;&amp;#x7AE0;&amp;#x4E2D;&amp;#x8BF4;&amp;#x660E;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x4E07;&amp;#x5C81;&amp;#xFF01;Swift 3 &amp;#x53D1;&amp;#x5E03;&amp;#x4E86;&amp;#xFF0C;&amp;#x8BA9;&amp;#x6211;&amp;#x4EEC;&amp;#x4E00;&amp;#x8D77;&amp;#x6765;&amp;#x79FB;&amp;#x690D;&amp;#x9879;&amp;#x76EE;&amp;#x5427;&amp;#xFF01;&amp;#x5728;&amp;#x8FD9;&amp;#x7BC7;&amp;#x6587;&amp;#x7AE0;&amp;#x4E2D;&amp;#xFF0C;&amp;#x6211;&amp;#x4F1A;&amp;#x548C;&amp;#x4F60;&amp;#x5206;&amp;#x4EAB;&amp;#x6211;&amp;#x7684;&amp;#x9879;&amp;#x76EE;&amp;#x8FC1;&amp;#x79FB;&amp;#x5230; Swift 3 &amp;#x7684;&amp;#x7ECF;&amp;#x5386;&amp;#xFF0C;&amp;#x90A3;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A; 2 &amp;#x4E07;&amp;#x884C;&amp;#x7684; Swift &amp;#x9879;&amp;#x76EE;&amp;#x3002;&amp;#x5982;&amp;#x679C;&amp;#x4F60;&amp;#x5BF9;&amp;#x6B64;&amp;#x611F;&amp;#x5230;&amp;#x597D;&amp;#x5947;&amp;#xFF0C;&amp;#x8FD9;&amp;#x4E2A;&amp;#x9879;&amp;#x76EE;&amp;#x5176;&amp;#x5B9E;&amp;#x662F;&amp;#x6211;&amp;#x5B9E;&amp;#x73B0;&amp;#x7684; Cassowary &amp;#x7EBF;&amp;#x6027;&amp;#x7EA6;&amp;#x675F;&amp;#x6C42;&amp;#x89E3;&amp;#x7B97;&amp;#x6CD5;&amp;#xFF0C;&amp;#x8BE5;&amp;#x7B97;&amp;#x6CD5;&amp;#x6700;&amp;#x8457;&amp;#x540D;&amp;#x4E4B;&amp;#x5904;&amp;#x5728;&amp;#x4E8E;&amp;#x5176;&amp;#x901A;&amp;#x5E38;&amp;#x88AB;&amp;#x7528;&amp;#x4E8E;&amp;#x9875;&amp;#x9762;&amp;#x7684;&amp;#x81EA;&amp;#x52A8;&amp;#x5E03;&amp;#x5C40;&amp;#x3002;&amp;#x4F46;&amp;#x6211;&amp;#x5C06;&amp;#x5B83;&amp;#x7528;&amp;#x5728;&amp;#x4E86;&amp;#x4E00;&amp;#x4E9B;&amp;#x5B8C;&amp;#x5168;&amp;#x4E0D;&amp;#x540C;&amp;#x7684;&amp;#x4E8B;&amp;#x60C5;&amp;#x4E0A;&amp;#xFF0C;&amp;#x6211;&amp;#x5C06;&amp;#x4F1A;&amp;#x5728;&amp;#x4EE5;&amp;#x540E;&amp;#x7684;&amp;#x6587;&amp;#x7AE0;&amp;#x4E2D;&amp;#x8BF4;&amp;#x660E;&amp;#x3002;&lt;/p&gt;
     
     </summary>
     
@@ -433,9 +433,9 @@ for tuple: Tuple in dict {
     
       <category term="Hexo" scheme="http://www.iamlj.com/tags/Hexo/"/>
     
-      <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
-    
       <category term="Next" scheme="http://www.iamlj.com/tags/Next/"/>
+    
+      <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
     
       <category term="热度功能" scheme="http://www.iamlj.com/tags/%E7%83%AD%E5%BA%A6%E5%8A%9F%E8%83%BD/"/>
     
@@ -2309,17 +2309,17 @@ f.close
     
       <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
-      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
-    
-      <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
-    
       <category term="Evernote" scheme="http://www.iamlj.com/tags/Evernote/"/>
     
       <category term="印象笔记" scheme="http://www.iamlj.com/tags/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/"/>
     
       <category term="有道云笔记" scheme="http://www.iamlj.com/tags/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/"/>
     
+      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
+    
       <category term="剪藏" scheme="http://www.iamlj.com/tags/%E5%89%AA%E8%97%8F/"/>
+    
+      <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
     
   </entry>
   
@@ -3410,11 +3410,11 @@ git push -u origin master
     
       <category term="演示" scheme="http://www.iamlj.com/tags/%E6%BC%94%E7%A4%BA/"/>
     
+      <category term="PPT" scheme="http://www.iamlj.com/tags/PPT/"/>
+    
       <category term="HTML5" scheme="http://www.iamlj.com/tags/HTML5/"/>
     
       <category term="易企秀" scheme="http://www.iamlj.com/tags/%E6%98%93%E4%BC%81%E7%A7%80/"/>
-    
-      <category term="PPT" scheme="http://www.iamlj.com/tags/PPT/"/>
     
       <category term="源码" scheme="http://www.iamlj.com/tags/%E6%BA%90%E7%A0%81/"/>
     
@@ -4332,6 +4332,10 @@ Ctrl+Alt+Shift+p&#xFF1A;python
     
       <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
+      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
+    
+      <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
+    
       <category term="IDEA" scheme="http://www.iamlj.com/tags/IDEA/"/>
     
       <category term="Jetbrains" scheme="http://www.iamlj.com/tags/Jetbrains/"/>
@@ -4339,10 +4343,6 @@ Ctrl+Alt+Shift+p&#xFF1A;python
       <category term="PhpStorm" scheme="http://www.iamlj.com/tags/PhpStorm/"/>
     
       <category term="WebStorm" scheme="http://www.iamlj.com/tags/WebStorm/"/>
-    
-      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
-    
-      <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
     
       <category term="网盘分享" scheme="http://www.iamlj.com/tags/%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/"/>
     
