@@ -280,9 +280,9 @@ for tuple: Tuple in dict {
     
       <category term="Hexo" scheme="http://www.iamlj.com/tags/Hexo/"/>
     
-      <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
-    
       <category term="自动备份功能" scheme="http://www.iamlj.com/tags/%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%8A%9F%E8%83%BD/"/>
+    
+      <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -433,11 +433,11 @@ for tuple: Tuple in dict {
     
       <category term="Hexo" scheme="http://www.iamlj.com/tags/Hexo/"/>
     
+      <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
+    
       <category term="Next" scheme="http://www.iamlj.com/tags/Next/"/>
     
       <category term="热度功能" scheme="http://www.iamlj.com/tags/%E7%83%AD%E5%BA%A6%E5%8A%9F%E8%83%BD/"/>
-    
-      <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -497,9 +497,9 @@ for tuple: Tuple in dict {
       <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
     
     
-      <category term="IDEA" scheme="http://www.iamlj.com/tags/IDEA/"/>
-    
       <category term="Sublime" scheme="http://www.iamlj.com/tags/Sublime/"/>
+    
+      <category term="IDEA" scheme="http://www.iamlj.com/tags/IDEA/"/>
     
       <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
     
@@ -1922,11 +1922,11 @@ f.close
     
       <category term="影评" scheme="http://www.iamlj.com/tags/%E5%BD%B1%E8%AF%84/"/>
     
+      <category term="煎饼侠" scheme="http://www.iamlj.com/tags/%E7%85%8E%E9%A5%BC%E4%BE%A0/"/>
+    
       <category term="动漫" scheme="http://www.iamlj.com/tags/%E5%8A%A8%E6%BC%AB/"/>
     
       <category term="童话故事" scheme="http://www.iamlj.com/tags/%E7%AB%A5%E8%AF%9D%E6%95%85%E4%BA%8B/"/>
-    
-      <category term="煎饼侠" scheme="http://www.iamlj.com/tags/%E7%85%8E%E9%A5%BC%E4%BE%A0/"/>
     
       <category term="捉妖记" scheme="http://www.iamlj.com/tags/%E6%8D%89%E5%A6%96%E8%AE%B0/"/>
     
@@ -2307,6 +2307,8 @@ f.close
     
       <category term="Windows" scheme="http://www.iamlj.com/tags/Windows/"/>
     
+      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
+    
       <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
       <category term="Evernote" scheme="http://www.iamlj.com/tags/Evernote/"/>
@@ -2314,8 +2316,6 @@ f.close
       <category term="印象笔记" scheme="http://www.iamlj.com/tags/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/"/>
     
       <category term="有道云笔记" scheme="http://www.iamlj.com/tags/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
     
       <category term="剪藏" scheme="http://www.iamlj.com/tags/%E5%89%AA%E8%97%8F/"/>
     
@@ -2698,9 +2698,9 @@ git push -u origin master
     
       <category term="AutoHotkey" scheme="http://www.iamlj.com/tags/AutoHotkey/"/>
     
-      <category term="Sublime" scheme="http://www.iamlj.com/tags/Sublime/"/>
-    
       <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
+    
+      <category term="Sublime" scheme="http://www.iamlj.com/tags/Sublime/"/>
     
       <category term="FastStone" scheme="http://www.iamlj.com/tags/FastStone/"/>
     
@@ -3621,11 +3621,11 @@ git push -u origin master
     
       <category term="Movie" scheme="http://www.iamlj.com/tags/Movie/"/>
     
-      <category term="黄金罗盘" scheme="http://www.iamlj.com/tags/%E9%BB%84%E9%87%91%E7%BD%97%E7%9B%98/"/>
-    
       <category term="童话故事" scheme="http://www.iamlj.com/tags/%E7%AB%A5%E8%AF%9D%E6%95%85%E4%BA%8B/"/>
     
       <category term="纳尼亚传奇" scheme="http://www.iamlj.com/tags/%E7%BA%B3%E5%B0%BC%E4%BA%9A%E4%BC%A0%E5%A5%87/"/>
+    
+      <category term="黄金罗盘" scheme="http://www.iamlj.com/tags/%E9%BB%84%E9%87%91%E7%BD%97%E7%9B%98/"/>
     
       <category term="正义" scheme="http://www.iamlj.com/tags/%E6%AD%A3%E4%B9%89/"/>
     
@@ -3700,9 +3700,9 @@ git push -u origin master
       <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
     
     
-      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
       <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
+    
+      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
       <category term="快速入门" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     
@@ -3751,11 +3751,11 @@ git push -u origin master
       <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
     
     
+      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
+    
       <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
       <category term="Evernote" scheme="http://www.iamlj.com/tags/Evernote/"/>
-    
-      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
     
       <category term="快速入门" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     
@@ -3843,9 +3843,9 @@ bar | bar  | bar
       <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
     
     
-      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
       <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
+    
+      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
       <category term="快速入门" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     
@@ -3991,8 +3991,6 @@ bar | bar  | bar
       <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
     
     
-      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
       <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
     
       <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
@@ -4000,6 +3998,8 @@ bar | bar  | bar
       <category term="七牛" scheme="http://www.iamlj.com/tags/%E4%B8%83%E7%89%9B/"/>
     
       <category term="图床" scheme="http://www.iamlj.com/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
   </entry>
   
@@ -4071,11 +4071,11 @@ bar | bar  | bar
     
       <category term="童话故事" scheme="http://www.iamlj.com/tags/%E7%AB%A5%E8%AF%9D%E6%95%85%E4%BA%8B/"/>
     
-      <category term="纳尼亚传奇" scheme="http://www.iamlj.com/tags/%E7%BA%B3%E5%B0%BC%E4%BA%9A%E4%BC%A0%E5%A5%87/"/>
-    
       <category term="游戏" scheme="http://www.iamlj.com/tags/%E6%B8%B8%E6%88%8F/"/>
     
       <category term="爱丽丝梦境" scheme="http://www.iamlj.com/tags/%E7%88%B1%E4%B8%BD%E4%B8%9D%E6%A2%A6%E5%A2%83/"/>
+    
+      <category term="纳尼亚传奇" scheme="http://www.iamlj.com/tags/%E7%BA%B3%E5%B0%BC%E4%BA%9A%E4%BC%A0%E5%A5%87/"/>
     
   </entry>
   
@@ -4218,15 +4218,15 @@ Ctrl+Alt+Shift+p&#xFF1A;python
     
       <category term="AutoHotkey" scheme="http://www.iamlj.com/tags/AutoHotkey/"/>
     
-      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
       <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
-    
-      <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
     
       <category term="网盘分享" scheme="http://www.iamlj.com/tags/%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/"/>
     
+      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
       <category term="Sublime" scheme="http://www.iamlj.com/tags/Sublime/"/>
+    
+      <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
     
   </entry>
   
@@ -4330,9 +4330,11 @@ Ctrl+Alt+Shift+p&#xFF1A;python
     
       <category term="Windows" scheme="http://www.iamlj.com/tags/Windows/"/>
     
-      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
       <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
+    
+      <category term="网盘分享" scheme="http://www.iamlj.com/tags/%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
       <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
     
@@ -4343,8 +4345,6 @@ Ctrl+Alt+Shift+p&#xFF1A;python
       <category term="PhpStorm" scheme="http://www.iamlj.com/tags/PhpStorm/"/>
     
       <category term="WebStorm" scheme="http://www.iamlj.com/tags/WebStorm/"/>
-    
-      <category term="网盘分享" scheme="http://www.iamlj.com/tags/%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
