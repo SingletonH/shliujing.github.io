@@ -497,15 +497,15 @@ for tuple: Tuple in dict {
       <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
     
     
-      <category term="Sublime" scheme="http://www.iamlj.com/tags/Sublime/"/>
-    
       <category term="IDEA" scheme="http://www.iamlj.com/tags/IDEA/"/>
+    
+      <category term="Sublime" scheme="http://www.iamlj.com/tags/Sublime/"/>
     
       <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="Chrome" scheme="http://www.iamlj.com/tags/Chrome/"/>
-    
       <category term="WakaTime" scheme="http://www.iamlj.com/tags/WakaTime/"/>
+    
+      <category term="Chrome" scheme="http://www.iamlj.com/tags/Chrome/"/>
     
       <category term="时间统计" scheme="http://www.iamlj.com/tags/%E6%97%B6%E9%97%B4%E7%BB%9F%E8%AE%A1/"/>
     
@@ -1591,9 +1591,9 @@ Ctrl+Alt+7 -&gt; LICEcap(Run/Activate/Minimize)
     
       <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="Momentum" scheme="http://www.iamlj.com/tags/Momentum/"/>
-    
       <category term="Chrome" scheme="http://www.iamlj.com/tags/Chrome/"/>
+    
+      <category term="Momentum" scheme="http://www.iamlj.com/tags/Momentum/"/>
     
       <category term="壁纸" scheme="http://www.iamlj.com/tags/%E5%A3%81%E7%BA%B8/"/>
     
@@ -1922,11 +1922,11 @@ f.close
     
       <category term="影评" scheme="http://www.iamlj.com/tags/%E5%BD%B1%E8%AF%84/"/>
     
-      <category term="煎饼侠" scheme="http://www.iamlj.com/tags/%E7%85%8E%E9%A5%BC%E4%BE%A0/"/>
-    
       <category term="动漫" scheme="http://www.iamlj.com/tags/%E5%8A%A8%E6%BC%AB/"/>
     
       <category term="童话故事" scheme="http://www.iamlj.com/tags/%E7%AB%A5%E8%AF%9D%E6%95%85%E4%BA%8B/"/>
+    
+      <category term="煎饼侠" scheme="http://www.iamlj.com/tags/%E7%85%8E%E9%A5%BC%E4%BE%A0/"/>
     
       <category term="捉妖记" scheme="http://www.iamlj.com/tags/%E6%8D%89%E5%A6%96%E8%AE%B0/"/>
     
@@ -2307,8 +2307,6 @@ f.close
     
       <category term="Windows" scheme="http://www.iamlj.com/tags/Windows/"/>
     
-      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
-    
       <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
       <category term="Evernote" scheme="http://www.iamlj.com/tags/Evernote/"/>
@@ -2316,6 +2314,8 @@ f.close
       <category term="印象笔记" scheme="http://www.iamlj.com/tags/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/"/>
     
       <category term="有道云笔记" scheme="http://www.iamlj.com/tags/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
     
       <category term="剪藏" scheme="http://www.iamlj.com/tags/%E5%89%AA%E8%97%8F/"/>
     
@@ -2698,9 +2698,9 @@ git push -u origin master
     
       <category term="AutoHotkey" scheme="http://www.iamlj.com/tags/AutoHotkey/"/>
     
-      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
-    
       <category term="Sublime" scheme="http://www.iamlj.com/tags/Sublime/"/>
+    
+      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
     
       <category term="FastStone" scheme="http://www.iamlj.com/tags/FastStone/"/>
     
@@ -3410,11 +3410,11 @@ git push -u origin master
     
       <category term="演示" scheme="http://www.iamlj.com/tags/%E6%BC%94%E7%A4%BA/"/>
     
-      <category term="PPT" scheme="http://www.iamlj.com/tags/PPT/"/>
-    
       <category term="HTML5" scheme="http://www.iamlj.com/tags/HTML5/"/>
     
       <category term="易企秀" scheme="http://www.iamlj.com/tags/%E6%98%93%E4%BC%81%E7%A7%80/"/>
+    
+      <category term="PPT" scheme="http://www.iamlj.com/tags/PPT/"/>
     
       <category term="源码" scheme="http://www.iamlj.com/tags/%E6%BA%90%E7%A0%81/"/>
     
@@ -3621,11 +3621,11 @@ git push -u origin master
     
       <category term="Movie" scheme="http://www.iamlj.com/tags/Movie/"/>
     
+      <category term="黄金罗盘" scheme="http://www.iamlj.com/tags/%E9%BB%84%E9%87%91%E7%BD%97%E7%9B%98/"/>
+    
       <category term="童话故事" scheme="http://www.iamlj.com/tags/%E7%AB%A5%E8%AF%9D%E6%95%85%E4%BA%8B/"/>
     
       <category term="纳尼亚传奇" scheme="http://www.iamlj.com/tags/%E7%BA%B3%E5%B0%BC%E4%BA%9A%E4%BC%A0%E5%A5%87/"/>
-    
-      <category term="黄金罗盘" scheme="http://www.iamlj.com/tags/%E9%BB%84%E9%87%91%E7%BD%97%E7%9B%98/"/>
     
       <category term="正义" scheme="http://www.iamlj.com/tags/%E6%AD%A3%E4%B9%89/"/>
     
@@ -3700,66 +3700,15 @@ git push -u origin master
       <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
     
     
-      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
-    
       <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
     
       <category term="快速入门" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     
       <category term="马克飞象" scheme="http://www.iamlj.com/tags/%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1/"/>
     
       <category term="作业部落" scheme="http://www.iamlj.com/tags/%E4%BD%9C%E4%B8%9A%E9%83%A8%E8%90%BD/"/>
-    
-      <category term="Cmd Markdown" scheme="http://www.iamlj.com/tags/Cmd-Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>马克飞象Markdown入门简记</title>
-    <link href="http://www.iamlj.com/2015/08/markdown-learning-by-maxiang/"/>
-    <id>http://www.iamlj.com/2015/08/markdown-learning-by-maxiang/</id>
-    <published>2015-08-14T13:31:48.000Z</published>
-    <updated>2016-07-19T12:26:02.028Z</updated>
-    
-    <content type="html"><![CDATA[<p>&#x4E4B;&#x524D;&#x5B66;&#x4E60;<code>Markdown</code>&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5165;&#x95E8;&#x7684;&#x8BED;&#x6CD5;&#x53EA;&#x82B1;&#x4E86;10&#x6765;&#x5206;&#x949F;&#x3002;&#x4F46;&#x662F;&#x5728;&#x5DE5;&#x5177;&#x9009;&#x62E9;&#xFF0C;&#x4EE5;&#x53CA;&#x5DE5;&#x5177;&#x7684;&#x9AD8;&#x6548;&#x4F7F;&#x7528;&#x4E0A;&#xFF0C;&#x82B1;&#x4E86;&#x4E00;&#x4E9B;&#x65F6;&#x95F4;&#x3002;&#x6211;&#x7528;&#x8FC7;&#x7684;&#x5DE5;&#x5177;&#x5927;&#x6982;&#x6709;&#x51E0;&#x6B3E;&#x5427;&#xFF0C;&#x56DE;&#x5FC6;&#x8FC7;&#x6765;&#xFF0C;&#x7528;&#x8FC7;&#x7684;&#x987A;&#x5E8F;&#x4F9D;&#x6B21;&#x662F;<code>&#x7B80;&#x4E66;-&gt;&#x9A6C;&#x514B;&#x98DE;&#x8C61;-&gt;Cmd Markdown-&gt;Mou-&gt;Sublime-&gt;IDEA-&gt;Atom</code>&#x3002;&#x6700;&#x597D;&#x7528;&#x7684;&#x8FD8;&#x662F;<code>&#x9A6C;&#x514B;&#x98DE;&#x8C61;</code>&#x548C;<code>Sublime</code>&#x3002;</p>
-<p>&#x4ECA;&#x5929;&#x8981;&#x4ECB;&#x7ECD;&#x7684;&#x5C31;&#x662F;&#x4E00;&#x6B3E;&#x975E;&#x5E38;&#x7B80;&#x6D01;&#x7F8E;&#x89C2;&#x7684;<code>Markdown</code>&#x5DE5;&#x5177;&#xFF1A;<a href="https://maxiang.io/" target="_blank" rel="external">&#x9A6C;&#x514B;&#x98DE;&#x8C61;</a>&#x3002;&#x4E00;&#x6B3E;&#x4E3A;<code>Evernote</code>&#x800C;&#x751F;&#x7684;&#x57FA;&#x4E8E;Web&#x7684;&#x8DE8;&#x5E73;&#x53F0;&#x8F6F;&#x4EF6;&#xFF0C;&#x8F6F;&#x4EF6;&#x505A;&#x7684;&#x771F;&#x7684;&#x5F88;&#x4F18;&#x7F8E;&#xFF0C;&#x800C;&#x4E14;&#x901A;&#x8FC7;Web&#x5C01;&#x88C5;&#x8FD8;&#x5B9E;&#x73B0;&#x4E86;&#x4E09;&#x5927;&#x5E73;&#x53F0;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x652F;&#x6301;&#x3002;&#x540E;&#x6765;&#x56E0;&#x4E3A;&#x6536;&#x8D39;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x5C31;&#x6CA1;&#x518D;&#x6DF1;&#x5165;&#x4F7F;&#x7528;&#x4E86;&#xFF0C;&#x73B0;&#x5728;&#x4E3B;&#x8981;&#x505A;&#x65E5;&#x5E38;&#x7684;&#x8C03;&#x8BD5;&#x6837;&#x5F0F;&#x4F7F;&#x7528;&#x3002;</p>
-<img src="/2015/08/markdown-learning-by-maxiang/iamlj_201607213308.png" class="full-image">
-<a id="more"></a> 
-<p>&#x8001;&#x5B9E;&#x8BF4;&#xFF0C;&#x4E0D;&#x6536;&#x8D39;&#x4E5F;&#x8BB2;&#x4E0D;&#x8FC7;&#x53BB;&#xFF0C;&#x56E0;&#x4E3A;&#x4E91;&#x7AEF;&#x5B58;&#x50A8;&#x548C;&#x670D;&#x52A1;&#x5668;&#x7EF4;&#x62A4;&#x90FD;&#x662F;&#x9700;&#x8981;&#x7ECF;&#x8D39;&#x7684;&#xFF0C;&#x800C;&#x4E14;&#x8F6F;&#x4EF6;&#x505A;&#x7684;&#x8FD9;&#x4E48;&#x597D;&#xFF0C;&#x4E5F;&#x4F1A;&#x6709;&#x5F88;&#x591A;&#x5FE0;&#x5B9E;&#x7528;&#x6237;&#x613F;&#x610F;&#x4ED8;&#x8D39;&#x3002;&#x53E6;&#x5916;&#x4E0E;&#x4E4B;&#x7ADE;&#x4E89;&#x7684;&#x53E6;&#x5916;&#x4E00;&#x6B3E;&#x56FD;&#x4EA7;&#x8F6F;&#x4EF6;<code>Cmd Markdown</code>&#xFF0C;&#x4E5F;&#x662F;&#x8DE8;&#x5E73;&#x53F0;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x4E91;&#x7AEF;&#x5B58;&#x50A8;&#x5206;&#x4EAB;&#x3002;&#x6211;&#x5F53;&#x65F6;&#x7528;&#x7684;&#x65F6;&#x5019;&#x8FD8;&#x662F;&#x514D;&#x8D39;&#xFF0C;&#x73B0;&#x5728;&#x4E5F;&#x5F00;&#x59CB;&#x6536;&#x8D39;&#x4E86;&#x3002;&#x8FD9;&#x4E9B;&#x90FD;&#x662F;&#x72EC;&#x7ACB;&#x5F00;&#x53D1;&#x8005;&#xFF0C;&#x4E2A;&#x4EBA;&#x5B8C;&#x6210;&#x7684;&#x8FD9;&#x4E48;&#x68D2;&#x4F5C;&#x54C1;&#xFF0C;&#x5F88;&#x5389;&#x5BB3;&#x4E5F;&#x5F88;&#x4E0D;&#x5BB9;&#x6613;&#x3002;&#x4E3A;&#x4ED6;&#x4EEC;&#x52A0;&#x6CB9;&#xFF0C;&#x5E0C;&#x671B;&#x4ED6;&#x4EEC;&#x80FD;&#x505A;&#x7684;&#x8D8A;&#x6765;&#x8D8A;&#x597D;&#x3002;</p>
-<p>&#x8FD9;&#x91CC;&#x4E3B;&#x8981;&#x8BB0;&#x5F55;&#x6211;&#x6CA1;&#x638C;&#x63E1;&#x7684;&#x90E8;&#x5206;&#x6269;&#x5C55;&#x8BED;&#x6CD5;&#xFF0C;&#x5B8C;&#x6574;&#x7684;&#x53EA;&#x6709;&#x4E00;&#x7BC7;&#x535A;&#x6587;&#x957F;&#x5EA6;&#x7684;&#x5B98;&#x65B9;&#x5165;&#x95E8;&#x6559;&#x7A0B;&#xFF0C;<a href="https://maxiang.io/" target="_blank" rel="external">&#x70B9;&#x51FB;&#x8FD9;&#x91CC;&#x67E5;&#x770B;</a>&#x3002;&#x6269;&#x5C55;&#x7684;&#x5FEB;&#x6377;&#x952E;&#x6211;&#x6CA1;&#x7279;&#x610F;&#x53BB;&#x8BB0;&#xFF0C;&#x56E0;&#x4E3A;&#x9A6C;&#x514B;&#x98DE;&#x8C61;&#x4E0D;&#x652F;&#x6301;&#x81EA;&#x5B9A;&#x4E49;&#x5FEB;&#x6377;&#x952E;&#xFF0C;&#x8981;&#x8BB0;&#x4E5F;&#x662F;&#x8BB0;<a href="http://www.iamlj.com/2015/07/common-keyboard-shortcuts-in-sublime/#markdown"><strong>Sublime&#x7684;&#x8FD9;&#x5957;Markdown&#x5FEB;&#x6377;&#x952E;</strong></a>&#x3002;</p>
-<p>&#x6CE8;&#x610F;&#xFF1A;&#x56E0;&#x4E3A;&#x662F;&#x6269;&#x5C55;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x5F88;&#x591A;&#x8BED;&#x6CD5;&#x535A;&#x5BA2;&#x4E0D;&#x652F;&#x6301;&#xFF0C;&#x5305;&#x62EC;<code>LaTex</code>&#x516C;&#x5F0F;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x52A0;&#x8F7D;<code>Mathjax</code>&#xFF0C;&#x5219;&#x662F;&#x4E0D;&#x663E;&#x793A;&#x7684;&#x3002;</p>
-<h2 id="&#x7B14;&#x8BB0;&#x672C;"><a href="#&#x7B14;&#x8BB0;&#x672C;" class="headerlink" title="&#x7B14;&#x8BB0;&#x672C;"></a>&#x7B14;&#x8BB0;&#x672C;</h2><p>&#x9488;&#x5BF9;&#x7684;&#x662F;&#x5B58;&#x5165;&#x5370;&#x8C61;&#x7B14;&#x8BB0;&#x7684;&#x7B14;&#x8BB0;&#x672C;&#x5206;&#x7C7B;&#x9009;&#x62E9;&#x3002;</p>
-<p>@(&#x6211;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x7B14;&#x8BB0;&#x672C;)[&#x9A6C;&#x514B;&#x98DE;&#x8C61;,&#x5E2E;&#x52A9;,Markdown]</p>
-<h2 id="&#x590D;&#x9009;&#x6846;"><a href="#&#x590D;&#x9009;&#x6846;" class="headerlink" title="&#x590D;&#x9009;&#x6846;"></a>&#x590D;&#x9009;&#x6846;</h2><p>[ ]&#x672A;&#x9009;&#x4E2D;<br>[x]&#x9009;&#x4E2D;</p>
-<h2 id="LaTex&#x516C;&#x5F0F;"><a href="#LaTex&#x516C;&#x5F0F;" class="headerlink" title="LaTex&#x516C;&#x5F0F;"></a>LaTex&#x516C;&#x5F0F;</h2><ol>
-<li>&#x4E00;&#x53E5;&#x884C;&#x5185; $ y = x + 1 $</li>
-<li>&#x6574;&#x884C; $$ a^2 + b^2 = c^2 $$</li>
-</ol>
-<h2 id="&#x8868;&#x683C;"><a href="#&#x8868;&#x683C;" class="headerlink" title="&#x8868;&#x683C;"></a>&#x8868;&#x683C;</h2><p>&#x5FEB;&#x6377;&#x952E;<code>Ctrl+Alt+T</code>&#xFF0C;&#x76F4;&#x63A5;&#x51FA;&#x6765;&#x3002;<br><figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line">| Col1      |     Col2 |   Col3   |</span><br><span class="line">| <span class="symbol">:--------</span> | --------<span class="symbol">:|</span> <span class="symbol">:------</span><span class="symbol">:</span> |</span><br><span class="line">| field1    |   field2 |  field3  |</span><br></pre></td></tr></table></figure></p>
-<h3 id="&#x6D41;&#x7A0B;&#x56FE;"><a href="#&#x6D41;&#x7A0B;&#x56FE;" class="headerlink" title="&#x6D41;&#x7A0B;&#x56FE;"></a>&#x6D41;&#x7A0B;&#x56FE;</h3><p>&#x8BED;&#x6CD5;<br><img src="/2015/08/markdown-learning-by-maxiang/iamlj_201607220208.png" alt=""></p>
-<p>&#x6548;&#x679C;<br><img src="/2015/08/markdown-learning-by-maxiang/iamlj_201607220512.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&amp;#x4E4B;&amp;#x524D;&amp;#x5B66;&amp;#x4E60;&lt;code&gt;Markdown&lt;/code&gt;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#xFF0C;&amp;#x5165;&amp;#x95E8;&amp;#x7684;&amp;#x8BED;&amp;#x6CD5;&amp;#x53EA;&amp;#x82B1;&amp;#x4E86;10&amp;#x6765;&amp;#x5206;&amp;#x949F;&amp;#x3002;&amp;#x4F46;&amp;#x662F;&amp;#x5728;&amp;#x5DE5;&amp;#x5177;&amp;#x9009;&amp;#x62E9;&amp;#xFF0C;&amp;#x4EE5;&amp;#x53CA;&amp;#x5DE5;&amp;#x5177;&amp;#x7684;&amp;#x9AD8;&amp;#x6548;&amp;#x4F7F;&amp;#x7528;&amp;#x4E0A;&amp;#xFF0C;&amp;#x82B1;&amp;#x4E86;&amp;#x4E00;&amp;#x4E9B;&amp;#x65F6;&amp;#x95F4;&amp;#x3002;&amp;#x6211;&amp;#x7528;&amp;#x8FC7;&amp;#x7684;&amp;#x5DE5;&amp;#x5177;&amp;#x5927;&amp;#x6982;&amp;#x6709;&amp;#x51E0;&amp;#x6B3E;&amp;#x5427;&amp;#xFF0C;&amp;#x56DE;&amp;#x5FC6;&amp;#x8FC7;&amp;#x6765;&amp;#xFF0C;&amp;#x7528;&amp;#x8FC7;&amp;#x7684;&amp;#x987A;&amp;#x5E8F;&amp;#x4F9D;&amp;#x6B21;&amp;#x662F;&lt;code&gt;&amp;#x7B80;&amp;#x4E66;-&amp;gt;&amp;#x9A6C;&amp;#x514B;&amp;#x98DE;&amp;#x8C61;-&amp;gt;Cmd Markdown-&amp;gt;Mou-&amp;gt;Sublime-&amp;gt;IDEA-&amp;gt;Atom&lt;/code&gt;&amp;#x3002;&amp;#x6700;&amp;#x597D;&amp;#x7528;&amp;#x7684;&amp;#x8FD8;&amp;#x662F;&lt;code&gt;&amp;#x9A6C;&amp;#x514B;&amp;#x98DE;&amp;#x8C61;&lt;/code&gt;&amp;#x548C;&lt;code&gt;Sublime&lt;/code&gt;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x8981;&amp;#x4ECB;&amp;#x7ECD;&amp;#x7684;&amp;#x5C31;&amp;#x662F;&amp;#x4E00;&amp;#x6B3E;&amp;#x975E;&amp;#x5E38;&amp;#x7B80;&amp;#x6D01;&amp;#x7F8E;&amp;#x89C2;&amp;#x7684;&lt;code&gt;Markdown&lt;/code&gt;&amp;#x5DE5;&amp;#x5177;&amp;#xFF1A;&lt;a href=&quot;https://maxiang.io/&quot;&gt;&amp;#x9A6C;&amp;#x514B;&amp;#x98DE;&amp;#x8C61;&lt;/a&gt;&amp;#x3002;&amp;#x4E00;&amp;#x6B3E;&amp;#x4E3A;&lt;code&gt;Evernote&lt;/code&gt;&amp;#x800C;&amp;#x751F;&amp;#x7684;&amp;#x57FA;&amp;#x4E8E;Web&amp;#x7684;&amp;#x8DE8;&amp;#x5E73;&amp;#x53F0;&amp;#x8F6F;&amp;#x4EF6;&amp;#xFF0C;&amp;#x8F6F;&amp;#x4EF6;&amp;#x505A;&amp;#x7684;&amp;#x771F;&amp;#x7684;&amp;#x5F88;&amp;#x4F18;&amp;#x7F8E;&amp;#xFF0C;&amp;#x800C;&amp;#x4E14;&amp;#x901A;&amp;#x8FC7;Web&amp;#x5C01;&amp;#x88C5;&amp;#x8FD8;&amp;#x5B9E;&amp;#x73B0;&amp;#x4E86;&amp;#x4E09;&amp;#x5927;&amp;#x5E73;&amp;#x53F0;&amp;#x5BA2;&amp;#x6237;&amp;#x7AEF;&amp;#x7684;&amp;#x652F;&amp;#x6301;&amp;#x3002;&amp;#x540E;&amp;#x6765;&amp;#x56E0;&amp;#x4E3A;&amp;#x6536;&amp;#x8D39;&amp;#x7684;&amp;#x5173;&amp;#x7CFB;&amp;#xFF0C;&amp;#x5C31;&amp;#x6CA1;&amp;#x518D;&amp;#x6DF1;&amp;#x5165;&amp;#x4F7F;&amp;#x7528;&amp;#x4E86;&amp;#xFF0C;&amp;#x73B0;&amp;#x5728;&amp;#x4E3B;&amp;#x8981;&amp;#x505A;&amp;#x65E5;&amp;#x5E38;&amp;#x7684;&amp;#x8C03;&amp;#x8BD5;&amp;#x6837;&amp;#x5F0F;&amp;#x4F7F;&amp;#x7528;&amp;#x3002;&lt;/p&gt;
-&lt;img src=&quot;/2015/08/markdown-learning-by-maxiang/iamlj_201607213308.png&quot; class=&quot;full-image&quot;&gt;
-    
-    </summary>
-    
-      <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
-    
-    
-      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
-    
-      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
-      <category term="Evernote" scheme="http://www.iamlj.com/tags/Evernote/"/>
-    
-      <category term="快速入门" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
-    
-      <category term="马克飞象" scheme="http://www.iamlj.com/tags/%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1/"/>
     
       <category term="Cmd Markdown" scheme="http://www.iamlj.com/tags/Cmd-Markdown/"/>
     
@@ -3843,9 +3792,9 @@ bar | bar  | bar
       <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
     
     
-      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
-    
       <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
     
       <category term="快速入门" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     
@@ -3854,6 +3803,57 @@ bar | bar  | bar
       <category term="Cmd Markdown" scheme="http://www.iamlj.com/tags/Cmd-Markdown/"/>
     
       <category term="简书" scheme="http://www.iamlj.com/tags/%E7%AE%80%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>马克飞象Markdown入门简记</title>
+    <link href="http://www.iamlj.com/2015/08/markdown-learning-by-maxiang/"/>
+    <id>http://www.iamlj.com/2015/08/markdown-learning-by-maxiang/</id>
+    <published>2015-08-14T13:31:48.000Z</published>
+    <updated>2016-07-19T12:26:02.028Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#x4E4B;&#x524D;&#x5B66;&#x4E60;<code>Markdown</code>&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5165;&#x95E8;&#x7684;&#x8BED;&#x6CD5;&#x53EA;&#x82B1;&#x4E86;10&#x6765;&#x5206;&#x949F;&#x3002;&#x4F46;&#x662F;&#x5728;&#x5DE5;&#x5177;&#x9009;&#x62E9;&#xFF0C;&#x4EE5;&#x53CA;&#x5DE5;&#x5177;&#x7684;&#x9AD8;&#x6548;&#x4F7F;&#x7528;&#x4E0A;&#xFF0C;&#x82B1;&#x4E86;&#x4E00;&#x4E9B;&#x65F6;&#x95F4;&#x3002;&#x6211;&#x7528;&#x8FC7;&#x7684;&#x5DE5;&#x5177;&#x5927;&#x6982;&#x6709;&#x51E0;&#x6B3E;&#x5427;&#xFF0C;&#x56DE;&#x5FC6;&#x8FC7;&#x6765;&#xFF0C;&#x7528;&#x8FC7;&#x7684;&#x987A;&#x5E8F;&#x4F9D;&#x6B21;&#x662F;<code>&#x7B80;&#x4E66;-&gt;&#x9A6C;&#x514B;&#x98DE;&#x8C61;-&gt;Cmd Markdown-&gt;Mou-&gt;Sublime-&gt;IDEA-&gt;Atom</code>&#x3002;&#x6700;&#x597D;&#x7528;&#x7684;&#x8FD8;&#x662F;<code>&#x9A6C;&#x514B;&#x98DE;&#x8C61;</code>&#x548C;<code>Sublime</code>&#x3002;</p>
+<p>&#x4ECA;&#x5929;&#x8981;&#x4ECB;&#x7ECD;&#x7684;&#x5C31;&#x662F;&#x4E00;&#x6B3E;&#x975E;&#x5E38;&#x7B80;&#x6D01;&#x7F8E;&#x89C2;&#x7684;<code>Markdown</code>&#x5DE5;&#x5177;&#xFF1A;<a href="https://maxiang.io/" target="_blank" rel="external">&#x9A6C;&#x514B;&#x98DE;&#x8C61;</a>&#x3002;&#x4E00;&#x6B3E;&#x4E3A;<code>Evernote</code>&#x800C;&#x751F;&#x7684;&#x57FA;&#x4E8E;Web&#x7684;&#x8DE8;&#x5E73;&#x53F0;&#x8F6F;&#x4EF6;&#xFF0C;&#x8F6F;&#x4EF6;&#x505A;&#x7684;&#x771F;&#x7684;&#x5F88;&#x4F18;&#x7F8E;&#xFF0C;&#x800C;&#x4E14;&#x901A;&#x8FC7;Web&#x5C01;&#x88C5;&#x8FD8;&#x5B9E;&#x73B0;&#x4E86;&#x4E09;&#x5927;&#x5E73;&#x53F0;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x652F;&#x6301;&#x3002;&#x540E;&#x6765;&#x56E0;&#x4E3A;&#x6536;&#x8D39;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x5C31;&#x6CA1;&#x518D;&#x6DF1;&#x5165;&#x4F7F;&#x7528;&#x4E86;&#xFF0C;&#x73B0;&#x5728;&#x4E3B;&#x8981;&#x505A;&#x65E5;&#x5E38;&#x7684;&#x8C03;&#x8BD5;&#x6837;&#x5F0F;&#x4F7F;&#x7528;&#x3002;</p>
+<img src="/2015/08/markdown-learning-by-maxiang/iamlj_201607213308.png" class="full-image">
+<a id="more"></a> 
+<p>&#x8001;&#x5B9E;&#x8BF4;&#xFF0C;&#x4E0D;&#x6536;&#x8D39;&#x4E5F;&#x8BB2;&#x4E0D;&#x8FC7;&#x53BB;&#xFF0C;&#x56E0;&#x4E3A;&#x4E91;&#x7AEF;&#x5B58;&#x50A8;&#x548C;&#x670D;&#x52A1;&#x5668;&#x7EF4;&#x62A4;&#x90FD;&#x662F;&#x9700;&#x8981;&#x7ECF;&#x8D39;&#x7684;&#xFF0C;&#x800C;&#x4E14;&#x8F6F;&#x4EF6;&#x505A;&#x7684;&#x8FD9;&#x4E48;&#x597D;&#xFF0C;&#x4E5F;&#x4F1A;&#x6709;&#x5F88;&#x591A;&#x5FE0;&#x5B9E;&#x7528;&#x6237;&#x613F;&#x610F;&#x4ED8;&#x8D39;&#x3002;&#x53E6;&#x5916;&#x4E0E;&#x4E4B;&#x7ADE;&#x4E89;&#x7684;&#x53E6;&#x5916;&#x4E00;&#x6B3E;&#x56FD;&#x4EA7;&#x8F6F;&#x4EF6;<code>Cmd Markdown</code>&#xFF0C;&#x4E5F;&#x662F;&#x8DE8;&#x5E73;&#x53F0;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x4E91;&#x7AEF;&#x5B58;&#x50A8;&#x5206;&#x4EAB;&#x3002;&#x6211;&#x5F53;&#x65F6;&#x7528;&#x7684;&#x65F6;&#x5019;&#x8FD8;&#x662F;&#x514D;&#x8D39;&#xFF0C;&#x73B0;&#x5728;&#x4E5F;&#x5F00;&#x59CB;&#x6536;&#x8D39;&#x4E86;&#x3002;&#x8FD9;&#x4E9B;&#x90FD;&#x662F;&#x72EC;&#x7ACB;&#x5F00;&#x53D1;&#x8005;&#xFF0C;&#x4E2A;&#x4EBA;&#x5B8C;&#x6210;&#x7684;&#x8FD9;&#x4E48;&#x68D2;&#x4F5C;&#x54C1;&#xFF0C;&#x5F88;&#x5389;&#x5BB3;&#x4E5F;&#x5F88;&#x4E0D;&#x5BB9;&#x6613;&#x3002;&#x4E3A;&#x4ED6;&#x4EEC;&#x52A0;&#x6CB9;&#xFF0C;&#x5E0C;&#x671B;&#x4ED6;&#x4EEC;&#x80FD;&#x505A;&#x7684;&#x8D8A;&#x6765;&#x8D8A;&#x597D;&#x3002;</p>
+<p>&#x8FD9;&#x91CC;&#x4E3B;&#x8981;&#x8BB0;&#x5F55;&#x6211;&#x6CA1;&#x638C;&#x63E1;&#x7684;&#x90E8;&#x5206;&#x6269;&#x5C55;&#x8BED;&#x6CD5;&#xFF0C;&#x5B8C;&#x6574;&#x7684;&#x53EA;&#x6709;&#x4E00;&#x7BC7;&#x535A;&#x6587;&#x957F;&#x5EA6;&#x7684;&#x5B98;&#x65B9;&#x5165;&#x95E8;&#x6559;&#x7A0B;&#xFF0C;<a href="https://maxiang.io/" target="_blank" rel="external">&#x70B9;&#x51FB;&#x8FD9;&#x91CC;&#x67E5;&#x770B;</a>&#x3002;&#x6269;&#x5C55;&#x7684;&#x5FEB;&#x6377;&#x952E;&#x6211;&#x6CA1;&#x7279;&#x610F;&#x53BB;&#x8BB0;&#xFF0C;&#x56E0;&#x4E3A;&#x9A6C;&#x514B;&#x98DE;&#x8C61;&#x4E0D;&#x652F;&#x6301;&#x81EA;&#x5B9A;&#x4E49;&#x5FEB;&#x6377;&#x952E;&#xFF0C;&#x8981;&#x8BB0;&#x4E5F;&#x662F;&#x8BB0;<a href="http://www.iamlj.com/2015/07/common-keyboard-shortcuts-in-sublime/#markdown"><strong>Sublime&#x7684;&#x8FD9;&#x5957;Markdown&#x5FEB;&#x6377;&#x952E;</strong></a>&#x3002;</p>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x56E0;&#x4E3A;&#x662F;&#x6269;&#x5C55;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x5F88;&#x591A;&#x8BED;&#x6CD5;&#x535A;&#x5BA2;&#x4E0D;&#x652F;&#x6301;&#xFF0C;&#x5305;&#x62EC;<code>LaTex</code>&#x516C;&#x5F0F;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x52A0;&#x8F7D;<code>Mathjax</code>&#xFF0C;&#x5219;&#x662F;&#x4E0D;&#x663E;&#x793A;&#x7684;&#x3002;</p>
+<h2 id="&#x7B14;&#x8BB0;&#x672C;"><a href="#&#x7B14;&#x8BB0;&#x672C;" class="headerlink" title="&#x7B14;&#x8BB0;&#x672C;"></a>&#x7B14;&#x8BB0;&#x672C;</h2><p>&#x9488;&#x5BF9;&#x7684;&#x662F;&#x5B58;&#x5165;&#x5370;&#x8C61;&#x7B14;&#x8BB0;&#x7684;&#x7B14;&#x8BB0;&#x672C;&#x5206;&#x7C7B;&#x9009;&#x62E9;&#x3002;</p>
+<p>@(&#x6211;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x7B14;&#x8BB0;&#x672C;)[&#x9A6C;&#x514B;&#x98DE;&#x8C61;,&#x5E2E;&#x52A9;,Markdown]</p>
+<h2 id="&#x590D;&#x9009;&#x6846;"><a href="#&#x590D;&#x9009;&#x6846;" class="headerlink" title="&#x590D;&#x9009;&#x6846;"></a>&#x590D;&#x9009;&#x6846;</h2><p>[ ]&#x672A;&#x9009;&#x4E2D;<br>[x]&#x9009;&#x4E2D;</p>
+<h2 id="LaTex&#x516C;&#x5F0F;"><a href="#LaTex&#x516C;&#x5F0F;" class="headerlink" title="LaTex&#x516C;&#x5F0F;"></a>LaTex&#x516C;&#x5F0F;</h2><ol>
+<li>&#x4E00;&#x53E5;&#x884C;&#x5185; $ y = x + 1 $</li>
+<li>&#x6574;&#x884C; $$ a^2 + b^2 = c^2 $$</li>
+</ol>
+<h2 id="&#x8868;&#x683C;"><a href="#&#x8868;&#x683C;" class="headerlink" title="&#x8868;&#x683C;"></a>&#x8868;&#x683C;</h2><p>&#x5FEB;&#x6377;&#x952E;<code>Ctrl+Alt+T</code>&#xFF0C;&#x76F4;&#x63A5;&#x51FA;&#x6765;&#x3002;<br><figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line">| Col1      |     Col2 |   Col3   |</span><br><span class="line">| <span class="symbol">:--------</span> | --------<span class="symbol">:|</span> <span class="symbol">:------</span><span class="symbol">:</span> |</span><br><span class="line">| field1    |   field2 |  field3  |</span><br></pre></td></tr></table></figure></p>
+<h3 id="&#x6D41;&#x7A0B;&#x56FE;"><a href="#&#x6D41;&#x7A0B;&#x56FE;" class="headerlink" title="&#x6D41;&#x7A0B;&#x56FE;"></a>&#x6D41;&#x7A0B;&#x56FE;</h3><p>&#x8BED;&#x6CD5;<br><img src="/2015/08/markdown-learning-by-maxiang/iamlj_201607220208.png" alt=""></p>
+<p>&#x6548;&#x679C;<br><img src="/2015/08/markdown-learning-by-maxiang/iamlj_201607220512.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;#x4E4B;&amp;#x524D;&amp;#x5B66;&amp;#x4E60;&lt;code&gt;Markdown&lt;/code&gt;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#xFF0C;&amp;#x5165;&amp;#x95E8;&amp;#x7684;&amp;#x8BED;&amp;#x6CD5;&amp;#x53EA;&amp;#x82B1;&amp;#x4E86;10&amp;#x6765;&amp;#x5206;&amp;#x949F;&amp;#x3002;&amp;#x4F46;&amp;#x662F;&amp;#x5728;&amp;#x5DE5;&amp;#x5177;&amp;#x9009;&amp;#x62E9;&amp;#xFF0C;&amp;#x4EE5;&amp;#x53CA;&amp;#x5DE5;&amp;#x5177;&amp;#x7684;&amp;#x9AD8;&amp;#x6548;&amp;#x4F7F;&amp;#x7528;&amp;#x4E0A;&amp;#xFF0C;&amp;#x82B1;&amp;#x4E86;&amp;#x4E00;&amp;#x4E9B;&amp;#x65F6;&amp;#x95F4;&amp;#x3002;&amp;#x6211;&amp;#x7528;&amp;#x8FC7;&amp;#x7684;&amp;#x5DE5;&amp;#x5177;&amp;#x5927;&amp;#x6982;&amp;#x6709;&amp;#x51E0;&amp;#x6B3E;&amp;#x5427;&amp;#xFF0C;&amp;#x56DE;&amp;#x5FC6;&amp;#x8FC7;&amp;#x6765;&amp;#xFF0C;&amp;#x7528;&amp;#x8FC7;&amp;#x7684;&amp;#x987A;&amp;#x5E8F;&amp;#x4F9D;&amp;#x6B21;&amp;#x662F;&lt;code&gt;&amp;#x7B80;&amp;#x4E66;-&amp;gt;&amp;#x9A6C;&amp;#x514B;&amp;#x98DE;&amp;#x8C61;-&amp;gt;Cmd Markdown-&amp;gt;Mou-&amp;gt;Sublime-&amp;gt;IDEA-&amp;gt;Atom&lt;/code&gt;&amp;#x3002;&amp;#x6700;&amp;#x597D;&amp;#x7528;&amp;#x7684;&amp;#x8FD8;&amp;#x662F;&lt;code&gt;&amp;#x9A6C;&amp;#x514B;&amp;#x98DE;&amp;#x8C61;&lt;/code&gt;&amp;#x548C;&lt;code&gt;Sublime&lt;/code&gt;&amp;#x3002;&lt;/p&gt;
+&lt;p&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x8981;&amp;#x4ECB;&amp;#x7ECD;&amp;#x7684;&amp;#x5C31;&amp;#x662F;&amp;#x4E00;&amp;#x6B3E;&amp;#x975E;&amp;#x5E38;&amp;#x7B80;&amp;#x6D01;&amp;#x7F8E;&amp;#x89C2;&amp;#x7684;&lt;code&gt;Markdown&lt;/code&gt;&amp;#x5DE5;&amp;#x5177;&amp;#xFF1A;&lt;a href=&quot;https://maxiang.io/&quot;&gt;&amp;#x9A6C;&amp;#x514B;&amp;#x98DE;&amp;#x8C61;&lt;/a&gt;&amp;#x3002;&amp;#x4E00;&amp;#x6B3E;&amp;#x4E3A;&lt;code&gt;Evernote&lt;/code&gt;&amp;#x800C;&amp;#x751F;&amp;#x7684;&amp;#x57FA;&amp;#x4E8E;Web&amp;#x7684;&amp;#x8DE8;&amp;#x5E73;&amp;#x53F0;&amp;#x8F6F;&amp;#x4EF6;&amp;#xFF0C;&amp;#x8F6F;&amp;#x4EF6;&amp;#x505A;&amp;#x7684;&amp;#x771F;&amp;#x7684;&amp;#x5F88;&amp;#x4F18;&amp;#x7F8E;&amp;#xFF0C;&amp;#x800C;&amp;#x4E14;&amp;#x901A;&amp;#x8FC7;Web&amp;#x5C01;&amp;#x88C5;&amp;#x8FD8;&amp;#x5B9E;&amp;#x73B0;&amp;#x4E86;&amp;#x4E09;&amp;#x5927;&amp;#x5E73;&amp;#x53F0;&amp;#x5BA2;&amp;#x6237;&amp;#x7AEF;&amp;#x7684;&amp;#x652F;&amp;#x6301;&amp;#x3002;&amp;#x540E;&amp;#x6765;&amp;#x56E0;&amp;#x4E3A;&amp;#x6536;&amp;#x8D39;&amp;#x7684;&amp;#x5173;&amp;#x7CFB;&amp;#xFF0C;&amp;#x5C31;&amp;#x6CA1;&amp;#x518D;&amp;#x6DF1;&amp;#x5165;&amp;#x4F7F;&amp;#x7528;&amp;#x4E86;&amp;#xFF0C;&amp;#x73B0;&amp;#x5728;&amp;#x4E3B;&amp;#x8981;&amp;#x505A;&amp;#x65E5;&amp;#x5E38;&amp;#x7684;&amp;#x8C03;&amp;#x8BD5;&amp;#x6837;&amp;#x5F0F;&amp;#x4F7F;&amp;#x7528;&amp;#x3002;&lt;/p&gt;
+&lt;img src=&quot;/2015/08/markdown-learning-by-maxiang/iamlj_201607213308.png&quot; class=&quot;full-image&quot;&gt;
+    
+    </summary>
+    
+      <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
+    
+    
+      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+      <category term="Evernote" scheme="http://www.iamlj.com/tags/Evernote/"/>
+    
+      <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
+    
+      <category term="快速入门" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="马克飞象" scheme="http://www.iamlj.com/tags/%E9%A9%AC%E5%85%8B%E9%A3%9E%E8%B1%A1/"/>
+    
+      <category term="Cmd Markdown" scheme="http://www.iamlj.com/tags/Cmd-Markdown/"/>
     
   </entry>
   
@@ -3991,6 +3991,8 @@ bar | bar  | bar
       <category term="Tech" scheme="http://www.iamlj.com/categories/Tech/"/>
     
     
+      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
       <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
     
       <category term="Markdown" scheme="http://www.iamlj.com/tags/Markdown/"/>
@@ -3998,8 +4000,6 @@ bar | bar  | bar
       <category term="七牛" scheme="http://www.iamlj.com/tags/%E4%B8%83%E7%89%9B/"/>
     
       <category term="图床" scheme="http://www.iamlj.com/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
-      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
   </entry>
   
@@ -4071,11 +4071,11 @@ bar | bar  | bar
     
       <category term="童话故事" scheme="http://www.iamlj.com/tags/%E7%AB%A5%E8%AF%9D%E6%95%85%E4%BA%8B/"/>
     
+      <category term="纳尼亚传奇" scheme="http://www.iamlj.com/tags/%E7%BA%B3%E5%B0%BC%E4%BA%9A%E4%BC%A0%E5%A5%87/"/>
+    
       <category term="游戏" scheme="http://www.iamlj.com/tags/%E6%B8%B8%E6%88%8F/"/>
     
       <category term="爱丽丝梦境" scheme="http://www.iamlj.com/tags/%E7%88%B1%E4%B8%BD%E4%B8%9D%E6%A2%A6%E5%A2%83/"/>
-    
-      <category term="纳尼亚传奇" scheme="http://www.iamlj.com/tags/%E7%BA%B3%E5%B0%BC%E4%BA%9A%E4%BC%A0%E5%A5%87/"/>
     
   </entry>
   
@@ -4218,15 +4218,15 @@ Ctrl+Alt+Shift+p&#xFF1A;python
     
       <category term="AutoHotkey" scheme="http://www.iamlj.com/tags/AutoHotkey/"/>
     
+      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
       <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
+    
+      <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
     
       <category term="网盘分享" scheme="http://www.iamlj.com/tags/%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/"/>
     
-      <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
       <category term="Sublime" scheme="http://www.iamlj.com/tags/Sublime/"/>
-    
-      <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
     
   </entry>
   
@@ -4330,11 +4330,9 @@ Ctrl+Alt+Shift+p&#xFF1A;python
     
       <category term="Windows" scheme="http://www.iamlj.com/tags/Windows/"/>
     
-      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
-    
-      <category term="网盘分享" scheme="http://www.iamlj.com/tags/%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/"/>
-    
       <category term="快捷键" scheme="http://www.iamlj.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+      <category term="常用" scheme="http://www.iamlj.com/tags/%E5%B8%B8%E7%94%A8/"/>
     
       <category term="Mac" scheme="http://www.iamlj.com/tags/Mac/"/>
     
@@ -4345,6 +4343,8 @@ Ctrl+Alt+Shift+p&#xFF1A;python
       <category term="PhpStorm" scheme="http://www.iamlj.com/tags/PhpStorm/"/>
     
       <category term="WebStorm" scheme="http://www.iamlj.com/tags/WebStorm/"/>
+    
+      <category term="网盘分享" scheme="http://www.iamlj.com/tags/%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
