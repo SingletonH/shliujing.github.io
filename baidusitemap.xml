@@ -174,39 +174,11 @@
         
         <tag>Hexo</tag>
          
-        <tag>系列教程</tag>
-         
         <tag>Next</tag>
          
+        <tag>系列教程</tag>
+         
         <tag>热度功能</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.iamlj.com/2015/10/use-the-windows-batch-command-batch-to-convert-the-string-case/</loc>
-    <lastmod>2016-08-06T06:35:01.203Z</lastmod>
-    <data>
-        <display>
-        <title>使用Windows Bat批处理命令转换字符串大小写</title>
-        <pubTime>2015-10-05T14:28:12.000Z</pubTime>
-        
-        <tag>Windows</tag>
-         
-        <tag>AutoHotkey</tag>
-         
-        <tag>大小写转换</tag>
-         
-        <tag>Cmd</tag>
-         
-        <tag>批处理</tag>
          
          
            
@@ -237,6 +209,34 @@
         <tag>截图改名</tag>
          
         <tag>替换文件名</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.iamlj.com/2015/10/use-the-windows-batch-command-batch-to-convert-the-string-case/</loc>
+    <lastmod>2016-08-06T06:35:01.203Z</lastmod>
+    <data>
+        <display>
+        <title>使用Windows Bat批处理命令转换字符串大小写</title>
+        <pubTime>2015-10-05T14:28:12.000Z</pubTime>
+        
+        <tag>Windows</tag>
+         
+        <tag>AutoHotkey</tag>
+         
+        <tag>大小写转换</tag>
+         
+        <tag>Cmd</tag>
+         
+        <tag>批处理</tag>
          
          
            
@@ -325,6 +325,28 @@
 
     
   <url>
+    <loc>http://www.iamlj.com/2015/08/a-pure-and-fresh-guitar-song/</loc>
+    <lastmod>2016-08-06T06:35:01.190Z</lastmod>
+    <data>
+        <display>
+        <title>不知名 - 一首沁人心脾的吉他曲</title>
+        <pubTime>2015-08-20T15:10:47.000Z</pubTime>
+        
+        <tag>Music</tag>
+         
+        <tag>沁人心脾</tag>
+         
+         
+           
+             
+              <breadCrumb title="Life" url="http://www.iamlj.com/categories/Life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.iamlj.com/2016/07/add-auto-backup-function-for-hexo/</loc>
     <lastmod>2016-08-06T06:35:01.190Z</lastmod>
     <data>
@@ -342,28 +364,6 @@
            
              
               <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.iamlj.com/2015/08/a-pure-and-fresh-guitar-song/</loc>
-    <lastmod>2016-08-06T06:35:01.190Z</lastmod>
-    <data>
-        <display>
-        <title>不知名 - 一首沁人心脾的吉他曲</title>
-        <pubTime>2015-08-20T15:10:47.000Z</pubTime>
-        
-        <tag>Music</tag>
-         
-        <tag>沁人心脾</tag>
-         
-         
-           
-             
-              <breadCrumb title="Life" url="http://www.iamlj.com/categories/Life/"/>
           
         </display>
     </data>
@@ -472,9 +472,9 @@
         <title>WakaTime - 编程时间管理工具 顺便秀秀编程时间</title>
         <pubTime>2016-07-10T09:04:08.000Z</pubTime>
         
-        <tag>IDEA</tag>
-         
         <tag>Sublime</tag>
+         
+        <tag>IDEA</tag>
          
         <tag>推荐软件</tag>
          
@@ -705,11 +705,11 @@
         
         <tag>演示</tag>
          
+        <tag>PPT</tag>
+         
         <tag>HTML5</tag>
          
         <tag>易企秀</tag>
-         
-        <tag>PPT</tag>
          
         <tag>源码</tag>
          
@@ -1265,9 +1265,9 @@
          
         <tag>Mac</tag>
          
-        <tag>网盘分享</tag>
-         
         <tag>Sublime</tag>
+         
+        <tag>网盘分享</tag>
          
          
            
@@ -1291,6 +1291,12 @@
          
         <tag>快捷键</tag>
          
+        <tag>常用</tag>
+         
+        <tag>Mac</tag>
+         
+        <tag>网盘分享</tag>
+         
         <tag>IDEA</tag>
          
         <tag>Jetbrains</tag>
@@ -1298,12 +1304,6 @@
         <tag>PhpStorm</tag>
          
         <tag>WebStorm</tag>
-         
-        <tag>常用</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>网盘分享</tag>
          
          
            
@@ -1327,17 +1327,17 @@
          
         <tag>快捷键</tag>
          
-        <tag>常用</tag>
-         
-        <tag>Mac</tag>
-         
         <tag>Evernote</tag>
          
         <tag>印象笔记</tag>
          
         <tag>有道云笔记</tag>
          
+        <tag>常用</tag>
+         
         <tag>剪藏</tag>
+         
+        <tag>Mac</tag>
          
          
            
