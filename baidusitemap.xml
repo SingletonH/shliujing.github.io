@@ -258,9 +258,9 @@
         
         <tag>推荐软件</tag>
          
-        <tag>Momentum</tag>
-         
         <tag>Chrome</tag>
+         
+        <tag>Momentum</tag>
          
         <tag>壁纸</tag>
          
@@ -325,6 +325,28 @@
 
     
   <url>
+    <loc>http://www.iamlj.com/2015/08/a-pure-and-fresh-guitar-song/</loc>
+    <lastmod>2016-08-06T06:35:01.190Z</lastmod>
+    <data>
+        <display>
+        <title>不知名 - 一首沁人心脾的吉他曲</title>
+        <pubTime>2015-08-20T15:10:47.000Z</pubTime>
+        
+        <tag>Music</tag>
+         
+        <tag>沁人心脾</tag>
+         
+         
+           
+             
+              <breadCrumb title="Life" url="http://www.iamlj.com/categories/Life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.iamlj.com/2016/07/add-auto-backup-function-for-hexo/</loc>
     <lastmod>2016-08-06T06:35:01.190Z</lastmod>
     <data>
@@ -342,28 +364,6 @@
            
              
               <breadCrumb title="Tech" url="http://www.iamlj.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.iamlj.com/2015/08/a-pure-and-fresh-guitar-song/</loc>
-    <lastmod>2016-08-06T06:35:01.190Z</lastmod>
-    <data>
-        <display>
-        <title>不知名 - 一首沁人心脾的吉他曲</title>
-        <pubTime>2015-08-20T15:10:47.000Z</pubTime>
-        
-        <tag>Music</tag>
-         
-        <tag>沁人心脾</tag>
-         
-         
-           
-             
-              <breadCrumb title="Life" url="http://www.iamlj.com/categories/Life/"/>
           
         </display>
     </data>
@@ -478,9 +478,9 @@
          
         <tag>推荐软件</tag>
          
-        <tag>Chrome</tag>
-         
         <tag>WakaTime</tag>
+         
+        <tag>Chrome</tag>
          
         <tag>时间统计</tag>
          
@@ -941,9 +941,9 @@
         
         <tag>Windows</tag>
          
-        <tag>推荐软件</tag>
-         
         <tag>Ditto</tag>
+         
+        <tag>推荐软件</tag>
          
         <tag>剪贴板</tag>
          
@@ -969,9 +969,9 @@
         
         <tag>Windows</tag>
          
-        <tag>ConsoleZ</tag>
-         
         <tag>推荐软件</tag>
+         
+        <tag>ConsoleZ</tag>
          
         <tag>Cmd</tag>
          
@@ -1047,9 +1047,9 @@
         
         <tag>快捷键</tag>
          
-        <tag>Markdown</tag>
-         
         <tag>Evernote</tag>
+         
+        <tag>Markdown</tag>
          
         <tag>快速入门</tag>
          
@@ -1291,6 +1291,10 @@
          
         <tag>快捷键</tag>
          
+        <tag>常用</tag>
+         
+        <tag>Mac</tag>
+         
         <tag>IDEA</tag>
          
         <tag>Jetbrains</tag>
@@ -1298,10 +1302,6 @@
         <tag>PhpStorm</tag>
          
         <tag>WebStorm</tag>
-         
-        <tag>常用</tag>
-         
-        <tag>Mac</tag>
          
         <tag>网盘分享</tag>
          
@@ -1327,17 +1327,17 @@
          
         <tag>快捷键</tag>
          
-        <tag>常用</tag>
-         
-        <tag>Mac</tag>
-         
         <tag>Evernote</tag>
          
         <tag>印象笔记</tag>
          
         <tag>有道云笔记</tag>
          
+        <tag>常用</tag>
+         
         <tag>剪藏</tag>
+         
+        <tag>Mac</tag>
          
          
            
