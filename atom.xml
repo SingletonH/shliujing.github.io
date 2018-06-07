@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>新业小站</title>
+  <title>Jing&#39;s Blog</title>
   <subtitle>我的一亩三分地</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -280,9 +280,9 @@ for tuple: Tuple in dict {
     
       <category term="Hexo" scheme="http://www.iamlj.com/tags/Hexo/"/>
     
-      <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
-    
       <category term="自动备份功能" scheme="http://www.iamlj.com/tags/%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%8A%9F%E8%83%BD/"/>
+    
+      <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -381,9 +381,9 @@ for tuple: Tuple in dict {
     
       <category term="Hexo" scheme="http://www.iamlj.com/tags/Hexo/"/>
     
-      <category term="音乐播放器功能" scheme="http://www.iamlj.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8%E5%8A%9F%E8%83%BD/"/>
-    
       <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="音乐播放器功能" scheme="http://www.iamlj.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8%E5%8A%9F%E8%83%BD/"/>
     
   </entry>
   
@@ -433,9 +433,9 @@ for tuple: Tuple in dict {
     
       <category term="Hexo" scheme="http://www.iamlj.com/tags/Hexo/"/>
     
-      <category term="Next" scheme="http://www.iamlj.com/tags/Next/"/>
-    
       <category term="系列教程" scheme="http://www.iamlj.com/tags/%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Next" scheme="http://www.iamlj.com/tags/Next/"/>
     
       <category term="热度功能" scheme="http://www.iamlj.com/tags/%E7%83%AD%E5%BA%A6%E5%8A%9F%E8%83%BD/"/>
     
@@ -503,9 +503,9 @@ for tuple: Tuple in dict {
     
       <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="WakaTime" scheme="http://www.iamlj.com/tags/WakaTime/"/>
-    
       <category term="Chrome" scheme="http://www.iamlj.com/tags/Chrome/"/>
+    
+      <category term="WakaTime" scheme="http://www.iamlj.com/tags/WakaTime/"/>
     
       <category term="时间统计" scheme="http://www.iamlj.com/tags/%E6%97%B6%E9%97%B4%E7%BB%9F%E8%AE%A1/"/>
     
@@ -1538,9 +1538,9 @@ Ctrl+Alt+7 -&gt; LICEcap(Run/Activate/Minimize)
     
       <category term="Windows" scheme="http://www.iamlj.com/tags/Windows/"/>
     
-      <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
-    
       <category term="ConsoleZ" scheme="http://www.iamlj.com/tags/ConsoleZ/"/>
+    
+      <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="Cmd" scheme="http://www.iamlj.com/tags/Cmd/"/>
     
@@ -1591,9 +1591,9 @@ Ctrl+Alt+7 -&gt; LICEcap(Run/Activate/Minimize)
     
       <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="Chrome" scheme="http://www.iamlj.com/tags/Chrome/"/>
-    
       <category term="Momentum" scheme="http://www.iamlj.com/tags/Momentum/"/>
+    
+      <category term="Chrome" scheme="http://www.iamlj.com/tags/Chrome/"/>
     
       <category term="壁纸" scheme="http://www.iamlj.com/tags/%E5%A3%81%E7%BA%B8/"/>
     
@@ -3010,9 +3010,9 @@ git push -u origin master
     
       <category term="Windows" scheme="http://www.iamlj.com/tags/Windows/"/>
     
-      <category term="Ditto" scheme="http://www.iamlj.com/tags/Ditto/"/>
-    
       <category term="推荐软件" scheme="http://www.iamlj.com/tags/%E6%8E%A8%E8%8D%90%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="Ditto" scheme="http://www.iamlj.com/tags/Ditto/"/>
     
       <category term="剪贴板" scheme="http://www.iamlj.com/tags/%E5%89%AA%E8%B4%B4%E6%9D%BF/"/>
     
@@ -3410,11 +3410,11 @@ git push -u origin master
     
       <category term="演示" scheme="http://www.iamlj.com/tags/%E6%BC%94%E7%A4%BA/"/>
     
-      <category term="PPT" scheme="http://www.iamlj.com/tags/PPT/"/>
-    
       <category term="HTML5" scheme="http://www.iamlj.com/tags/HTML5/"/>
     
       <category term="易企秀" scheme="http://www.iamlj.com/tags/%E6%98%93%E4%BC%81%E7%A7%80/"/>
+    
+      <category term="PPT" scheme="http://www.iamlj.com/tags/PPT/"/>
     
       <category term="源码" scheme="http://www.iamlj.com/tags/%E6%BA%90%E7%A0%81/"/>
     
